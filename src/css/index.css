@@ -1,9 +1,10 @@
 /*! Css Imports */
 @import './reset.css';
+@import './fonts.css';
 
 /*! Css Variables */
 :root{
-    --white:#fff;
+    --white:#ffff;
     --black:black;
     --gray:#3F3F3F;
     
@@ -15,3 +16,90 @@
     margin: 0 auto;
 }
 
+/*! ===============Header Section Styles=============== */
+
+/** Navbar Logo And SearchBox Styles */
+.header{
+    background-color: var(--black);
+    height: 20rem;
+}
+.header__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar__list-item{
+    margin-right: 2.5rem;
+}
+
+.navbar__list-link{
+    color: var(--white);
+    font-family: 'kanit-regular', Courier, monospace;
+
+}
+
+.search-icons{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.search-icons__input-svg,.search-icons__basket-svg,.search-icons__user-svg{
+    color: var(--white);
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+
+.search-icons__input{
+    background-color: var(--gray);
+    padding: 0.5rem 2.5rem;
+    border-radius: 2rem;
+    color: var(--white);
+    /* font-size: 1rem; */
+    border: none;
+    outline: none;
+    margin-right: 1rem;
+}
+.search-icons__input::placeholder{
+    color: var(--white);
+    padding: 1rem;
+}
+
+
+.search-icons__searchbox{
+    position: relative;
+}
+
+.search-icons__input-svg{
+    position: absolute;
+    left: 0.5rem;
+    top: 0.4rem;
+    cursor: pointer;
+}
+
+.search-icons__basket,.search-icons__user{
+    background-color: var(--gray);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.search-icons__basket{
+    margin-right: 1rem;
+    margin-left: 1rem;
+
+}
+
+.search-icons__user{
+    margin-left: 1rem;
+}
