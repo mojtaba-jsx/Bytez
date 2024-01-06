@@ -1,0 +1,11 @@
+/*! Css Imports */
+@import './reset.css';
+
+/*! Css Variables */
+
+:root{
+    --white:#fff;
+    --black:black;
+    --gray:#3F3F3F;
+    
+}

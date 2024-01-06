@@ -1,0 +1,29 @@
+/*!Fonts */
+/*! Kanit Fonts */
+@font-face {
+    font-family: 'kanit-bold';
+    src: url(../../assets/fonts/Kanit-Bold.ttf);
+}
+@font-face {
+    font-family: 'kanit-light';
+    src: url(../../assets/fonts/Kanit-Light.ttf);
+}
+@font-face {
+    font-family: 'kanit-regular';
+    src: url(../../assets/fonts/Kanit-Regular.ttf);
+}
+
+
+/*! Tektur Fonts */
+@font-face {
+    font-family: 'tektur-bold';
+    src: url(../../assets/fonts/Tektur-Bold.ttf);
+}
+@font-face {
+    font-family: 'tektur-medium';
+    src: url(../../assets/fonts/Tektur-Medium.ttf);
+}
+@font-face {
+    font-family: 'tektur-regular';
+    src: url(../../assets/fonts//Tektur-Regular.ttf);
+}
