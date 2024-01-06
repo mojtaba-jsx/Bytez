@@ -27,3 +27,17 @@
     font-family: 'tektur-regular';
     src: url(../../assets/fonts//Tektur-Regular.ttf);
 }
+
+/*! Inter Fonts */
+@font-face {
+    font-family: 'inter-bold';
+    src: url(../../assets/fonts/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: 'inter-light';
+    src: url(../../assets/fonts/Inter-Light.ttf);
+}
+@font-face {
+    font-family: 'inter-regular';
+    src: url(../../assets/fonts/Inter-Regular.ttf);
+}
