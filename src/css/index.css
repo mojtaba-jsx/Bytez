@@ -29,6 +29,13 @@
     justify-content: space-between;
     align-items: center;
 }
+.header__logo{
+    transition: all 140ms ease-in;
+}
+.header__logo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
 
 .navbar__list{
     display: flex;
@@ -43,7 +50,14 @@
 .navbar__list-link{
     color: var(--white);
     font-family: 'kanit-regular', Courier, monospace;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.5rem;
+    transition: all 140ms ease-in;
 
+}
+.navbar__list-link:hover{
+    transform: scale(1.2);
+    background-color: var(--gray);
 }
 
 .search-icons{
@@ -66,10 +80,16 @@
     padding: 0.8rem 2.5rem;
     border-radius: 2rem;
     color: var(--white);
-    /* font-size: 1rem; */
     border: none;
     outline: none;
     margin-right: 1rem;
+    transition: all 140ms ease-in;
+
+}
+
+.search-icons__input:focus{
+    transform: scale(1.1);
+
 }
 .search-icons__input::placeholder{
     color: var(--white);
@@ -155,4 +175,62 @@
     font-size: 1.5rem;
     font-family: 'inter-regular', Courier, monospace;
     margin-top: 1rem;
+}
+
+
+/** Mobile Menu Section Styles */
+
+.mobile-menu{
+    display: none;
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+}
+
+.mobile-menu__wrapper{
+    background-color: var(--gray);
+}
+
+.mobile-menu__list{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mobile-menu-item{
+    margin-bottom: 1rem;
+    /* margin-top: 1rem; */
+    transition: all 200ms ease-in;
+    padding: 1rem;
+}
+
+.mobile-menu-item:hover{
+    background-color: var(--black);
+}
+
+.mobile-menu-item:hover .mobile-menu-link{
+    text-shadow: 3px 1px 0px rgba(128, 128, 128, 1);
+
+}
+
+.mobile-menu-link{
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'inter-regular', Courier, monospace;
+    transition: all 200ms ease-in;
+}
+
+.mobile-menu__btn{
+    background-color: var(--gray);
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu__btn-svg{
+    font-size: 2rem;
+    width: 1.4rem;
+    height: 1.4rem;
+    color: #fff;
 }
