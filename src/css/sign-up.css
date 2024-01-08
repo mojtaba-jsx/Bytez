@@ -253,3 +253,17 @@
     color: var(--white);
     font-family: 'inter-light', Courier, monospace;
 }
+
+
+.footer-bottom{
+    background-color: var(--black);
+    height: 2rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.footer-bottom-text{
+    font-size: 1rem;
+    color: var(--white);
+    font-family: 'inter-bold', Courier, monospace;
+}
