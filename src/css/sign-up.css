@@ -1,0 +1,31 @@
+/*! Css Imports */
+@import './reset.css';
+@import './fonts.css';
+
+/*! Css Variables */
+:root{
+    --white:#ffff;
+    --black:black;
+    --gray:#3F3F3F;
+    
+}
+
+/*! Container Size */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/** Header OverWrite Changes Styles */
+
+.header{
+    background-color: var(--white);
+}
+.navbar__list-link{
+    color: var(--black);
+
+}
+
+.navbar__list-link:hover{
+    color: var(--white);
+}
