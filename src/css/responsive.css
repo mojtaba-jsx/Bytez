@@ -75,6 +75,20 @@
   .signup__box input {
     width: 22rem;
   }
+  .login__box{
+    width: 30rem;
+  }
+  .login__box-form div input{
+    width: 20rem;
+  }
+  .login__box-form-line::before{
+    width: 4rem;
+    right:7rem;
+  }
+  .login__box-form-line::after{
+    width: 4rem;
+    left: 7rem;
+  }
 }
 
 /* *  ------------------------560px------------------------ */
@@ -128,6 +142,21 @@
     width: 10rem;
     height: auto;
   }
+  .login__box{
+    left: 48%;
+  }
+  .login__box{
+    width: 26rem;
+  }
+  .login__box-form div input{
+    width: 18rem;
+  }
+  .login__box-login-link,.login__box-login-account{
+    width: 14rem;
+  }
+  .login__box-title{
+    font-size: 1.2rem;
+  }
 }
 
 /* *  ------------------------520px------------------------ */
@@ -169,10 +198,33 @@
   }
 }
 
+/* *  ------------------------450px------------------------ */
+@media screen and (max-width: 450px) {
+  .login__box{
+    width: 20rem;
+  }
+  .login__box-form-btn{
+    width: 12rem;
+  }
+  .login__box-form-line::before{
+    width: 4rem;
+    right:4rem;
+  }
+  .login__box-form-line::after{
+    width: 4rem;
+    left: 4rem;
+  }
+  .login__box-form-inputbox svg {
+    left: 4.2rem;
+  }
+}
 /* *  ------------------------435px------------------------ */
 @media screen and (max-width: 435px) {
   .header-changes {
     height: 16rem;
+  }
+  .login__box-form-inputbox svg {
+    left: 2.2rem;
   }
 }
 
