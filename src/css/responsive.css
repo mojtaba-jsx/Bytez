@@ -42,7 +42,7 @@
   .mobile-menu__btn {
     display: block;
   }
-  .header-signup {
+  .header-changes {
     height: 10rem;
   }
 }
@@ -144,7 +144,7 @@
   .search-icons__input-svg {
     top: 2.6rem;
   }
-  .header-signup {
+  .header-changes {
     height: 12rem;
   }
 }
@@ -171,7 +171,7 @@
 
 /* *  ------------------------435px------------------------ */
 @media screen and (max-width: 435px) {
-  .header-signup {
+  .header-changes {
     height: 16rem;
   }
 }
