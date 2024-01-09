@@ -107,6 +107,9 @@
   .footer-top__wrapper div {
     margin-bottom: 2rem;
   }
+  .signup__box-login-link{
+    width: 14rem;
+  }
 }
 
 /* *  ------------------------540px------------------------ */
