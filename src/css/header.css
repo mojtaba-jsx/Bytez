@@ -19,7 +19,7 @@
 /** Navbar Logo And SearchBox Styles */
 .header{
     background-color: var(--black);
-    height: 44rem;
+    height: 8rem;
 }
 .header__wrapper{
     display: flex;
@@ -121,4 +121,49 @@
 
 .search-icons__user{
     margin-left: 1rem;
+    cursor: pointer;
 }
+
+.search-icons{
+    position: relative;
+}
+
+.signin-signup{
+    visibility: hidden;
+    position: absolute;
+    top: 2.8rem;
+    right: 0;
+    width: 10rem;
+    height: 5rem;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 1rem;
+    z-index: 1000;
+
+}
+
+
+
+.signin-signup span{
+    border-radius: 1rem;
+    padding: 0.2rem 1rem;
+    transition: all 100ms ease-in;
+}
+
+.signin-signup a{
+    font-family: 'kanit-light', Courier, monospace;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.signin-signup a svg {
+    margin-left: 1rem;
+}
+
+.signin-signup span:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+

@@ -1,0 +1,29 @@
+/*! Css Imports */
+@import './reset.css';
+@import './fonts.css';
+@import './footer.css';
+
+/*! Css Variables */
+:root{
+    --white:#ffff;
+    --black:black;
+    --gray:#3F3F3F;
+    
+}
+
+/*! Container Size */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+
+.header-changes{
+    height: 6rem;
+    background-color: var(--white);
+    color: var(--black);
+}
+.navbar__list-link{
+    color: var(--black);
+}
