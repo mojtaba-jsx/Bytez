@@ -18,7 +18,9 @@
 
 /*! ===============Header Section Styles=============== */
 
-
+.header-home{
+    height:50rem;
+}
 
 
 /** Landing Section Styles */
