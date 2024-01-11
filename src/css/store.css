@@ -19,11 +19,3 @@
 
 
 
-.header-changes{
-    height: 6rem;
-    background-color: var(--white);
-    color: var(--black);
-}
-.navbar__list-link{
-    color: var(--black);
-}

@@ -22,6 +22,14 @@
   }
 }
 
+/* *  ------------------------945px------------------------ */
+@media screen and (max-width: 945px) {
+  .search-icons{
+    
+  }
+}
+
+
 /* *  ------------------------940px------------------------ */
 @media screen and (max-width: 940px) {
 }
@@ -223,6 +231,15 @@
   .login__box-form-inputbox svg {
     left: 4.2rem;
   }
+
+  .landing__wrapper{
+    margin-top: 4rem;
+    padding-top: 8rem;
+  }
+  .landing__info{
+    top: 10rem;
+  }
+
 }
 /* *  ------------------------435px------------------------ */
 @media screen and (max-width: 435px) {
