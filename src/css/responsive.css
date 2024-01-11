@@ -7,6 +7,34 @@
   }
 }
 
+@media screen and (max-width: 1230px) {
+  .main__cards-wrapper{
+    flex-direction: column-reverse;
+  }
+  .card__right{
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  .card__left{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .card__right-image{
+    width:22rem;
+    height: auto;
+  }
+  .card__right{
+    width: 88%;
+  }
+  .card__left-1,.card__left-2{
+    width: 88%;
+  }
+}
+
 /* *  ------------------------980px------------------------ */
 @media screen and (max-width: 980px) {
   .footer-top__col5-input {
@@ -19,6 +47,12 @@
   .footer-top__wrapper {
     margin-right: 1rem;
     margin-left: 1rem;
+  }
+  .card__right-info-title{
+    font-size: 3.2rem;
+  }
+  .card__right-info-subtitle{
+    font-size: 2rem;
   }
 }
 
@@ -60,6 +94,11 @@
   .search-icons__user{
     display: none;
   }
+  .card__right-image{
+    width: 20rem;
+  }
+
+
 }
 
 /* *  ------------------------925px------------------------ */
@@ -70,12 +109,14 @@
 @media screen and (max-width: 840px) {
 }
 
-/* *  ------------------------794px------------------------ */
-@media screen and (max-width: 794px) {
-  /* .main__Wrapper__img{
-        width: 40rem;
-        height: 42rem;
-    } */
+/* *  ------------------------805px------------------------ */
+@media screen and (max-width: 805px) {
+  .card__right-info-title{
+    font-size: 2.2rem;
+  }
+  .card__right-info-subtitle{
+    font-size: 1.2rem;
+  }
 }
 
 /* *  ------------------------620px------------------------ */
@@ -105,6 +146,18 @@
     left: 7rem;
   }
 }
+
+/* *  ------------------------572px------------------------ */
+@media screen and (max-width: 572px) {
+  .card__right-info-title{
+    font-size: 1.2rem;
+  }
+  .card__right-info-subtitle{
+    font: 0.8rem;
+  }
+}
+
+
 
 /* *  ------------------------560px------------------------ */
 @media screen and (max-width: 560px) {
@@ -283,6 +336,22 @@
 
 /* *  ------------------------400px------------------------ */
 @media screen and (max-width: 400px) {
+  .card__left-1,.card__left-2{
+    height: 30rem;
+  }
+  .card__right-image{
+    width: 14rem;
+  }
+  .card__left-1-info,.card__left-2-info{
+    max-width:12rem;
+  }
+}
+/* *  ------------------------365px------------------------ */
+@media screen and (max-width: 365px){
+  .card__left-1-image,.card__left-2-image{
+    right: 0;
+    width: 14rem;
+  }
 }
 
 /* *  ------------------------380px------------------------ */
@@ -319,6 +388,13 @@
   }
   .landing__text {
     font-size: 0.7rem;
+  }
+  .card__left-1-image,.card__left-2-image{
+    right: 0;
+    width: 12rem;
+  }
+  .card__left-1-info,.card__left-2-info{
+    max-width: 8rem;
   }
 }
 

@@ -28,12 +28,14 @@
 .main__cards-wrapper{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 .card__left{
     width: 40%;
     /* background-color: red; */
-    margin-right: 10rem;
+    /* margin-right: 10rem; */
     margin-top: 2rem;
 }
 
@@ -117,21 +119,23 @@
     border-radius: 2rem;
     background-color: #B5D9FB;
     transition: all 200ms ease-in;
+    height: 44rem;
 }
 .card__right:hover{
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 .card__right-image{
     position: absolute;
     right: 0;
     bottom: 0;
+    border-bottom-right-radius: 2rem;
 }
 
 
 .card__right-info{
     /* background-color: blue; */
-    width: 38rem;
-    height: 30rem;
+    width: 80%;
+    height: 100%;
     padding: 2rem;
 
 }
@@ -151,6 +155,10 @@
     font-family: 'kanit-light', Courier, monospace;
     font-size: 1rem;
     margin-top: 1rem;
+    white-space: break-word;
+    hyphens: auto;
+   max-width: 88%;
+    line-height: 1.2rem;
 }
 
 .card__right-info-link{
@@ -159,7 +167,7 @@
     color: var(--white);
     padding: 1rem 2rem;
     font-family: 'kanit-light', Courier, monospace;
-    margin-top: 10rem;
+    margin-top: 1rem;
 }
 
 
