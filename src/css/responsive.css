@@ -53,6 +53,13 @@
   .header-changes {
     height: 10rem;
   }
+
+  .header{
+    height: 12rem;
+  }
+  .search-icons__user{
+    display: none;
+  }
 }
 
 /* *  ------------------------925px------------------------ */
@@ -269,6 +276,9 @@
     font-size: 1rem;
     text-align: center;
   }
+  .header{
+    height: 16rem;
+  }
 }
 
 /* *  ------------------------400px------------------------ */
@@ -299,6 +309,7 @@
   .signup__box-form-inputbox svg {
     left: 2.2rem;
   }
+
 }
 
 /* *  ------------------------305px------------------------ */
