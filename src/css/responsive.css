@@ -379,6 +379,18 @@
     left: 2.2rem;
   }
 
+  .services__box-title{
+    font-size: 1rem;
+  }
+  .services__box-text{
+    font-size: 0.9rem;
+  }
+  .services__box-logo-svg{
+    width: 2rem;
+    height: 2rem;
+  }
+
+
 }
 
 /* *  ------------------------305px------------------------ */
