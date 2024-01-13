@@ -286,3 +286,94 @@
     font-family: 'inter-regular', Courier, monospace;
     text-transform: capitalize;
 }
+
+/** Recommended Section Styles */
+.recommended{
+    margin-top: 4rem;
+}
+.recommended__wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.recommended__box{
+    width: 18rem;
+    height: 24rem;
+    background-color: var(--white);
+    /* border: 2px solid red; */
+    border-radius: 2rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.recommended__box-top{
+    width: 100%;
+}
+.recommended__box-top-image{
+    width: 8rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.recommended__box-top{
+    position: relative;
+}
+
+.recommended__box-top-discount{
+    position: absolute;
+    top: 0;
+    background-color: green;
+    font-family: 'inter-regular', Courier, monospace;
+    color: var(--white);
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+}
+
+
+.recommended__box-bottom{
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(250, 249, 249); */
+    margin-top: 1rem;
+}
+
+.recommended__box-bottom-price{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.recommended__box:hover .recommended__box-bottom-price-star{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.recommended__box-bottom-price-star{
+    font-family: 'inter-bold', Courier, monospace;
+    font-size: 1.4rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: all 140ms ease-in;
+
+}
+
+
+.recommended__box-bottom-price-star-svg{
+    color: gold;
+    fill: gold;
+}
+
+.recommended__box-bottom-price-text{
+    color: var(--black);
+    font-family: 'inter-regular', Courier, monospace;
+    font-size: 2rem;
+}
+
+.recommended__box-bottom-infos-text{
+    display: inline-block;
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    font-family: 'tektur-bold', Courier, monospace;
+    text-transform: capitalize;
+    margin-left: 1rem;
+}
