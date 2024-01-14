@@ -20,14 +20,16 @@
 .main{
     background-color: #EFF7FA;
     width: 100%;
-    height: 100%;
+    height: 180rem;
+    /* margin-bottom: 40rem; */
+    /* background-color: red; */
 }
 
 
 /** Landing Section Styles */
 .landing{
     background-color: var(--black);
-    height: 100%;
+    height: 40rem;
     padding-top: 5rem;
   }
 .landing__image{
@@ -289,20 +291,20 @@
 
 /** Recommended Section Styles */
 .recommended{
+    height: 20rem;
     margin-top: 4rem;
+    margin-bottom: 10rem;
 }
 .recommended__wrapper{
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 .recommended__box{
     width: 18rem;
     height: 24rem;
     background-color: var(--white);
-    /* border: 2px solid red; */
     border-radius: 2rem;
-    margin-top: 1rem;
+    margin-top:4rem;
     padding: 1rem;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
@@ -333,7 +335,6 @@
 .recommended__box-bottom{
     display: flex;
     flex-direction: column;
-    /* background-color: rgb(250, 249, 249); */
     margin-top: 1rem;
 }
 
@@ -377,3 +378,20 @@
     text-transform: capitalize;
     margin-left: 1rem;
 }
+
+
+/** Slick js Styles */
+.slick-list{
+    width: 100%;
+}
+.slick-slide {
+    width: 20rem;
+    margin-right: 4rem;
+    padding-bottom: 2rem;
+}
+
+
+
+
+
+
