@@ -68,6 +68,13 @@
 @media screen and (max-width: 940px) {
 }
 
+/* *  ------------------------910px------------------------ */
+@media screen and (max-width: 910px) {
+  .services{
+    height: 16rem;
+  }
+}
+
 /* *  ------------------------900px------------------------ */
 @media screen and (max-width: 900px) {
   .navbar__list {
@@ -119,9 +126,7 @@
   }
 }
 
-/* *  ------------------------620px------------------------ */
-@media screen and (max-width: 620px) {
-}
+
 
 /* *  ------------------------660px------------------------ */
 @media screen and (max-width: 660px) {
@@ -147,6 +152,18 @@
   }
 }
 
+/* *  ------------------------620px------------------------ */
+@media screen and (max-width: 620px) {
+  .services{
+    height: 24rem;
+  }
+
+}
+
+/* *  ------------------------610px------------------------ */
+@media screen and (max-width: 610px) {
+
+}
 /* *  ------------------------572px------------------------ */
 @media screen and (max-width: 572px) {
   .card__right-info-title{
@@ -154,6 +171,9 @@
   }
   .card__right-info-subtitle{
     font: 0.8rem;
+  }
+  .recommended{
+    margin-top: 28rem;
   }
 }
 
