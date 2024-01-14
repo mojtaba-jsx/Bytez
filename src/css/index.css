@@ -306,6 +306,20 @@
     left: 50%;
     transform: translate(-50%, -50%); */
 }
+
+.recommended__title{
+    font-size: 2rem;
+    font-family: 'tektur-bold', Courier, monospace;
+    width: 22rem;
+    transition: all 180ms ease-in;
+    border-radius: 1rem;
+    padding: 0.4rem;
+}
+
+.recommended__title:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    cursor: pointer;
+}
 .recommended__box{
     width: 10rem;
     height: 24rem;
