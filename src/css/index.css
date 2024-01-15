@@ -434,7 +434,6 @@ body{
 
 }
 .brand{
-    /* background-color: red; */
     width: 4rem;
     margin-bottom: 1rem;
     margin-right: 1rem;
@@ -526,4 +525,99 @@ body{
 
 .category__item-icon{
     margin-bottom: 1rem;
+}
+
+
+/** Experinces Section Styles */
+.expreience{
+    margin-top: 4rem;
+    background-color: var(--black);
+    height: 34rem;
+    margin-bottom: 10rem;
+}
+.expreience__wrapper{
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    margin-top: 10rem;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+}
+
+.expreience__left-title{
+    font-size: 3.4rem;
+    font-family: 'tektur-bold', Courier, monospace;
+    color: var(--white);
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.expreience__left-timer{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.expreience__left-timer div{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    /* margin-right: 1rem; */
+    padding: 1rem 1rem;
+    border-radius: 50%;
+    margin-top: 2rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.expreience__left-timer div span{
+    color: var(--black);
+    font-family: 'tektur-regular', Courier, monospace;
+}
+
+.expreience__left-timer div span:nth-child(1){
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.expreience__right{
+    border-radius: 20%;
+    /* padding: 2rem; */
+
+}
+
+.expreience__right-image{
+    margin-top: 2rem;
+    transition: all 200ms ease-in;
+    width: 28rem;
+    height: auto;
+    margin-right: 2rem;
+
+}
+
+.expreience__right-image:hover{
+    transform: scale(1.1);
+}
+
+.expreience__btn{
+    margin-top: 4rem;
+    padding: 1rem 4rem;
+    font-size: 1.4rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    background-color: #00FF66;
+    font-family: 'tektur-medium', Courier, monospace;
+    transition: all 200ms ease-in;
+    margin-left: 2rem;
+
+}
+
+.expreience__btn:hover{
+    background-color: var(--gray);
+    color: var(--white);
+    cursor: pointer;
 }
