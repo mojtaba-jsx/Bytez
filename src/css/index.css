@@ -414,7 +414,12 @@
 
 
 /** Brands Section Styles */
-
+.brands__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
 .brands{
     width: 100%;
@@ -423,6 +428,13 @@
     /* height: 8rem; */
     background-color: var(--white);
     margin-top: 20rem;
+
+}
+.brand{
+    /* background-color: red; */
+    width: 4rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
 }
 
 .brands__title{
