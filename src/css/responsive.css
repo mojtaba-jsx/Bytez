@@ -52,6 +52,12 @@
     width: 100%;
     margin-right: 2rem;
   }
+  .new-arrival-title{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
 }
 
 /* *  ------------------------1140px------------------------ */
@@ -418,6 +424,9 @@
   }
   .new-arrival__left-infos,.new-arrival__right-top-infos,.new-arrival__right-bottom__left-infos{
     width: 14rem;
+  }
+  .new-arrival__left{
+    height: 30rem;
   }
 
 }

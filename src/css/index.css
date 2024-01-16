@@ -604,6 +604,25 @@ body {
 }
 
 /** New Arrival Section Styles */
+
+
+
+.new-arrival-title{
+  font-size: 2rem;
+  font-family: "tektur-bold", Courier, monospace;
+  width: 14rem;
+  transition: all 180ms ease-in;
+  border-radius: 1rem;
+  padding: 0.4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.new-arrival-title:hover {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  cursor: pointer;
+}
+
 .new-arrival__wrapper {
   display: flex;
   justify-content: space-around;
@@ -656,6 +675,12 @@ body {
   border: 2px solid var(--white);
   padding: 0.4rem;
   border-radius: 1rem;
+  transition: all 140ms ease-in;
+}
+
+.new-arrival__left-infos-link:hover{
+  background-color: var(--white);
+  color: var(--black);
 }
 
 /*! Right */
@@ -721,6 +746,12 @@ body {
   border: 2px solid var(--white);
   padding: 0.4rem;
   border-radius: 1rem;
+  transition: all 140ms ease-in;
+}
+
+.new-arrival__right-top-infos-link:hover{
+  background-color: var(--white);
+  color: var(--black);
 }
 
 .new-arrival__right-bottom__left {
@@ -771,6 +802,12 @@ body {
   border: 2px solid var(--white);
   padding: 0.4rem;
   border-radius: 1rem;
+  transition: all 140ms ease-in;
+}
+
+.new-arrival__right-bottom__left-infos-link:hover{
+  background-color: var(--white);
+  color: var(--black);
 }
 
 .new-arrival__right-bottom__right {
@@ -816,4 +853,10 @@ body {
   border: 2px solid var(--white);
   padding: 0.4rem;
   border-radius: 1rem;
+  transition: all 140ms ease-in;
+}
+
+.new-arrival__right-bottom__right-infos-link:hover{
+  background-color: var(--white);
+  color: var(--black);
 }
