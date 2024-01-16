@@ -36,6 +36,24 @@
   }
 }
 
+
+
+
+/* *  ------------------------1200px------------------------ */
+@media screen and (max-width: 1200px) {
+  .new-arrival__wrapper{
+    flex-wrap: wrap;
+  }
+  .new-arrival__left{
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+  .new-arrival__right{
+    width: 100%;
+    margin-right: 2rem;
+  }
+}
+
 /* *  ------------------------1140px------------------------ */
 @media screen and (max-width: 1140px) {
   .expreience__wrapper{
@@ -177,10 +195,18 @@
   }
 }
 
+/* *  ------------------------635px------------------------ */
+@media screen and (max-width: 635px) {
+
+
+}
 /* *  ------------------------620px------------------------ */
 @media screen and (max-width: 620px) {
   .services{
-    height: 24rem;
+    height: 40rem;
+  }
+  .new-arrival__left-image{
+    width: 22rem;
   }
 
 }
@@ -334,6 +360,19 @@
     padding: 1rem 3.2rem;
   }
 
+  .new-arrival__right-top-image{
+    width: 20rem;
+  }
+
+  .new-arrival__right-bottom{
+    flex-direction: column;
+    width: 100%;
+  }
+  .new-arrival__right-bottom__left,.new-arrival__right-bottom__right{
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
 
 }
 
@@ -374,6 +413,13 @@
   .login__box-form-inputbox svg {
     left: 2.2rem;
   }
+  .new-arrival__left-image{
+    width: 14rem;
+  }
+  .new-arrival__left-infos,.new-arrival__right-top-infos,.new-arrival__right-bottom__left-infos{
+    width: 14rem;
+  }
+
 }
 
 /* *  ------------------------414px------------------------ */
@@ -417,6 +463,11 @@
   .brands__title{
     width: 10rem;
   }
+  .new-arrival__right-top-image{
+    width: 14rem;
+  }
+
+
 }
 /* *  ------------------------365px------------------------ */
 @media screen and (max-width: 365px){
