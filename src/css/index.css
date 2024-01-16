@@ -2,6 +2,7 @@
 @import "./reset.css";
 @import "./fonts.css";
 
+
 /*! Css Variables */
 :root {
   --white: #ffff;
@@ -22,7 +23,7 @@ body {
 .main {
   background-color: #eff7fa;
   width: 100%;
-  height: 180rem;
+  /* height: 180rem; */
   /* margin-bottom: 40rem; */
   /* background-color: red; */
 }
@@ -861,8 +862,7 @@ body {
 
 /** News Section Styles */
 .news {
-  margin-bottom: 100rem;
-  height: 100rem;
+
 }
 
 .news__wrapper {
@@ -960,4 +960,9 @@ body {
 .news__box-btn svg {
   width: 1.2rem;
   height: 1.2rem;
+}
+
+
+.footer{
+  margin-top: 10rem;
 }
