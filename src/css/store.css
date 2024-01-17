@@ -102,6 +102,8 @@
   appearance: none;
 }
 
+
+/** Price Period Styles */
 .price-period-title {
   display: inline-block;
   font-size: 1.2rem;
@@ -134,3 +136,36 @@
     font-size: 1.2rem;
   font-family: "inter-bold", Courier, monospace;
 }
+
+
+/** Brand Menu Styles */
+.aside-menu__brand-menu{
+    display: flex;
+    flex-direction: column;
+}
+.aside-menu__brand-menu-title{
+    display: inline-block;
+    font-size: 1.2rem;
+    font-family: "inter-bold", Courier, monospace;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.aside-menu__brand-menu-select{
+    width: 17rem;
+    margin: 0 auto;
+    height: 3.4rem;
+    text-align: center;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    background-color: #add8e657;
+    color: var(--black);
+    font-family: "inter-regular", Courier, monospace;
+    -moz-appearance: none; /* Firefox */
+    -webkit-appearance: none; /* Safari and Chrome */
+    appearance: none;
+}
+
+
