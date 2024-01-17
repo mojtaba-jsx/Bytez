@@ -193,26 +193,37 @@
           <div class="products__wrapper">
             <aside class="aside-menu">
               <div class="aside-menu__wrapper">
-                <span class="aside-menu-title">
-                  Filter By
-                </span>
-
+                <span class="aside-menu-title"> Filter By </span>
+                  <!--! Category Menu -->
                 <div class="aside-menu__category">
-                  <span class="aside-menu__category-title">
-                    Category
-                  </span>
-                  <select value="Select" class="aside-menu__category-select" name="Category" id="category">
-                    <option selected value="Mobile Phones">SELECT MODEL PHONES</option>
-                    <option value="Nokia">Nokia</option>
-                    <option value="Samsung">Samsung</option>
-                    <option value="Apple">Apple</option>
-                    <option value="Xiaomi">Xiaomi</option>
+                  <span class="aside-menu__category-title"> Category </span>
+                  <select
+                    value="Select"
+                    class="aside-menu__category-select"
+                    name="Category"
+                    id="category"
+                  >
+                    <option selected value="Mobile Phones">
+                      Mobile Phones
+                    </option>
+                    <option value="speaker">Speaker</option>
+                    <option value="perfum">Perfum</option>
+                    <option value="watch">Watch</option>
+                    <option value="headphone">HeadPhones</option>
                   </select>
+                </div>
+                  <!--! Price Period -->
+                <div class="price-period">
+                  <span class="price-period-title">Price</span>
+                  <div class="price-period__wrapper">
+                    <span class="price-period-text">$</span>
+                    <input placeholder="From" class="price-period-input" type="text">
+                    <span class="price-period-text">$</span>
+                    <input placeholder="To" class="price-period-input" type="text">
+                  </div>
                 </div>
               </div>
             </aside>
-    
-
 
             <section class="products-box">
               <section class="products-header"></section>

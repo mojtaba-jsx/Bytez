@@ -57,12 +57,11 @@
 /** Aside Menu Section Styles */
 .aside-menu {
   /* background-color: red; */
-  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
-    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
-    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
   width: 25%;
   height: 100rem;
   margin-right: 2rem;
+  border-radius: 1rem;
 }
 
 .aside-menu-title {
@@ -95,10 +94,43 @@
   font-size: 1.2rem;
   border: none;
   outline: none;
-  background-color: #add8e69e;
+  background-color: #add8e657;
   color: var(--black);
   font-family: "inter-regular", Courier, monospace;
   -moz-appearance: none; /* Firefox */
   -webkit-appearance: none; /* Safari and Chrome */
   appearance: none;
+}
+
+.price-period-title {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-family: "inter-bold", Courier, monospace;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.price-period__wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.price-period-text{
+    margin-right: 1rem;
+    font-size: 1.4rem;
+}
+.price-period-input {
+  width: 8rem;
+  height: 2.5rem;
+  margin-right: 1rem;
+  text-align: center;
+  background-color: #add8e657;
+    border: none;
+    outline: none;
+}
+.price-period-input::placeholder{
+    font-size: 1.2rem;
+  font-family: "inter-bold", Courier, monospace;
 }
