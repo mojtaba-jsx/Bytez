@@ -59,7 +59,7 @@
   /* background-color: red; */
   box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
   width: 25%;
-  height: 100rem;
+  height: 70rem;
   margin-right: 2rem;
   border-radius: 1rem;
 }
@@ -169,3 +169,86 @@
 }
 
 
+
+
+
+.aside-menu__rating-title{
+  display: inline-block;
+  font-size: 1.2rem;
+  font-family: "inter-bold", Courier, monospace;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.aside-menu__rating-boxstar{
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.aside-menu__rating-boxstar-text{
+  font-size: 1.4rem;
+  font-family: "inter-regular", Courier, monospace;
+}
+
+.aside-menu__rating-boxstar svg{
+  width: 2rem;
+  height: 2rem;
+  fill: gold;
+  margin-right: 1rem;
+}
+
+.aside-menu__rating-boxstar-checkbox{
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+
+
+.aside-menu__discount-title{
+  display: inline-block;
+  font-size: 1.2rem;
+  font-family: "inter-bold", Courier, monospace;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+
+.aside-menu__discount-box{
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.aside-menu__discount-box-text{
+  font-size: 1.2rem;
+  font-family: "inter-regular", Courier, monospace;
+
+}
+
+.aside-menu__discount-box-input{
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 1rem;
+}
+
+
+.aside-menu__button{
+  padding: 1rem 7rem;
+  display: block;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  font-family: "inter-bold", Courier, monospace;
+  border: none;
+  border-radius: 1rem;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--gray);
+  color: var(--white);
+  letter-spacing: 0.2rem;
+  margin-top: 2rem;
+}
