@@ -29,30 +29,12 @@
   margin-top: 2rem;
 }
 
-/** Products Box Section Styles */
-.products__wrapper {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 2rem;
-}
-.products-box {
-  /* background-color: blue; */
-  width: 75%;
-  height: 100rem;
-}
-
-
-
-.products-list {
-  background-color: gold;
-  width: 100%;
-  height: 80rem;
-}
-
 /** Aside Menu Section Styles */
 .aside-menu {
   /* background-color: red; */
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
   width: 25%;
   height: 70rem;
   margin-right: 2rem;
@@ -97,7 +79,6 @@
   appearance: none;
 }
 
-
 /** Price Period Styles */
 .price-period-title {
   display: inline-block;
@@ -114,9 +95,9 @@
   margin-left: 1rem;
 }
 
-.price-period-text{
-    margin-right: 1rem;
-    font-size: 1.4rem;
+.price-period-text {
+  margin-right: 1rem;
+  font-size: 1.4rem;
 }
 .price-period-input {
   width: 8rem;
@@ -124,50 +105,20 @@
   margin-right: 1rem;
   text-align: center;
   background-color: #add8e657;
-    border: none;
-    outline: none;
+  border: none;
+  outline: none;
 }
-.price-period-input::placeholder{
-    font-size: 1.2rem;
+.price-period-input::placeholder {
+  font-size: 1.2rem;
   font-family: "inter-bold", Courier, monospace;
 }
 
-
 /** Brand Menu Styles */
-.aside-menu__brand-menu{
-    display: flex;
-    flex-direction: column;
+.aside-menu__brand-menu {
+  display: flex;
+  flex-direction: column;
 }
-.aside-menu__brand-menu-title{
-    display: inline-block;
-    font-size: 1.2rem;
-    font-family: "inter-bold", Courier, monospace;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
-    margin-left: 1rem;
-}
-
-.aside-menu__brand-menu-select{
-    width: 17rem;
-    margin: 0 auto;
-    height: 3.4rem;
-    text-align: center;
-    font-size: 1.2rem;
-    border: none;
-    outline: none;
-    background-color: #add8e657;
-    color: var(--black);
-    font-family: "inter-regular", Courier, monospace;
-    -moz-appearance: none; /* Firefox */
-    -webkit-appearance: none; /* Safari and Chrome */
-    appearance: none;
-}
-
-
-
-
-
-.aside-menu__rating-title{
+.aside-menu__brand-menu-title {
   display: inline-block;
   font-size: 1.2rem;
   font-family: "inter-bold", Courier, monospace;
@@ -176,33 +127,56 @@
   margin-left: 1rem;
 }
 
-.aside-menu__rating-boxstar{
+.aside-menu__brand-menu-select {
+  width: 17rem;
+  margin: 0 auto;
+  height: 3.4rem;
+  text-align: center;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  background-color: #add8e657;
+  color: var(--black);
+  font-family: "inter-regular", Courier, monospace;
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+}
+
+.aside-menu__rating-title {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-family: "inter-bold", Courier, monospace;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.aside-menu__rating-boxstar {
   display: flex;
   align-items: center;
   margin-left: 2rem;
   margin-bottom: 1rem;
 }
 
-.aside-menu__rating-boxstar-text{
+.aside-menu__rating-boxstar-text {
   font-size: 1.4rem;
   font-family: "inter-regular", Courier, monospace;
 }
 
-.aside-menu__rating-boxstar svg{
+.aside-menu__rating-boxstar svg {
   width: 2rem;
   height: 2rem;
   fill: gold;
   margin-right: 1rem;
 }
 
-.aside-menu__rating-boxstar-checkbox{
+.aside-menu__rating-boxstar-checkbox {
   width: 1.2rem;
   height: 1.2rem;
 }
 
-
-
-.aside-menu__discount-title{
+.aside-menu__discount-title {
   display: inline-block;
   font-size: 1.2rem;
   font-family: "inter-bold", Courier, monospace;
@@ -211,28 +185,25 @@
   margin-left: 1rem;
 }
 
-
-.aside-menu__discount-box{
+.aside-menu__discount-box {
   display: flex;
   align-items: center;
   margin-left: 2rem;
   margin-bottom: 1rem;
 }
 
-.aside-menu__discount-box-text{
+.aside-menu__discount-box-text {
   font-size: 1.2rem;
   font-family: "inter-regular", Courier, monospace;
-
 }
 
-.aside-menu__discount-box-input{
+.aside-menu__discount-box-input {
   width: 1.2rem;
   height: 1.2rem;
   margin-right: 1rem;
 }
 
-
-.aside-menu__button{
+.aside-menu__button {
   padding: 1rem 7rem;
   display: block;
   margin: 0 auto;
@@ -250,36 +221,36 @@
 
 /** Products Header Secion Styles */
 
-.products-header{
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+.products-header {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
   width: 100%;
   height: 6rem;
   margin-bottom: 1rem;
   border-radius: 1rem;
 }
 
-.products-header__wrapper{
+.products-header__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
-.products-header-left{
+.products-header-left {
   display: flex;
   align-items: center;
   margin-left: 1rem;
   margin-top: 1rem;
 }
 
-.products-header-left-text{
+.products-header-left-text {
   font-size: 1.2rem;
   font-family: "inter-bold", Courier, monospace;
   margin-right: 1rem;
-
 }
 
-.products-header-left-select{
+.products-header-left-select {
   width: 17rem;
   margin: 0 auto;
   height: 3.4rem;
@@ -295,17 +266,16 @@
   appearance: none;
 }
 
-.products-header-right{
+.products-header-right {
   display: flex;
   align-items: center;
 }
 
-.products-header-right-products-number{
+.products-header-right-products-number {
   font-size: 1.2rem;
   font-family: "inter-bold", Courier, monospace;
   margin-right: 1rem;
 }
-
 
 .products-header-right-products-arrangement span svg {
   width: 2.4rem;
@@ -314,3 +284,149 @@
   cursor: pointer;
 }
 
+/** Products Box Section Styles */
+.products__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.products-list__wrapper {
+  padding-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 2rem;
+}
+.products-box {
+  /* background-color: blue; */
+  width: 75%;
+  height: 120rem;
+}
+.products-list {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  border-radius: 1rem;
+  width: 100%;
+  height: 100rem;
+}
+
+.product-box {
+  width: 18rem;
+  height: 24rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  /* background-color: red; */
+  /* border: 4px solid red; */
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: #add8e657;
+  transition: all 200ms ease-in;
+
+}
+
+.product-box:hover{
+  transform: scale(1.1);
+}
+
+.product-box-image {
+  width: 10rem;
+  display: block;
+  margin: 0 auto;
+  /* margin-top: 0.5rem; */
+}
+
+.product-box {
+  position: relative;
+}
+
+.product-box-discount {
+  position: absolute;
+  top: -1rem;
+  left: -1rem;
+}
+
+.product-box-discount-text {
+  color: var(--white);
+  font-size: 1.2rem;
+  position: absolute;
+  top: 1.1rem;
+  left: 0.4rem;
+  transform: rotate(-40deg);
+  font-family: "inter-regular", Courier, monospace;
+}
+
+.product-box__info-name {
+  font-size: 1.4rem;
+  text-align: center;
+  display: block;
+  margin-top: 0.5rem;
+  font-family: "inter-regular", Courier, monospace;
+  font-weight: bold;
+}
+
+.product-box__info-rating{
+  font-size: 1.4rem;
+  font-family: "inter-regular", Courier, monospace;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.product-box__info-rating svg{
+  width: 2.2rem;
+  height: 2.2rem;
+  color: gold;
+  fill: gold;
+}
+
+
+.product-box__price{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.product-box__price-btn-link{
+  background-color: #65B741;
+  width: 4rem;
+  height: 4.2rem;
+  display: inline-block;
+  border-top-right-radius: 1rem;
+
+
+}
+.product-box__price-btn-link svg{
+  display: block;
+  margin:  0 auto;
+  margin-top: 1rem;
+}
+
+
+.product-box__price-price-disprice{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.product-box__price-orgprice{
+  font-size: 1.2rem;
+  text-decoration: line-through;
+  font-family: "inter-regular", Courier, monospace;
+}
+
+.product-box__price-disprice{
+  font-size: 1.8rem;
+  font-family: "inter-regular", Courier, monospace;
+
+}
