@@ -20,7 +20,14 @@
 .main {
   background-color: #eff7fa;
 }
+.content {
+  display: flex;
+  flex-direction: row;
+}
 
+.aside-content {
+  width: 30%;
+}
 
 /** Path Section Styles */
 
@@ -30,3 +37,98 @@
   display: inline-block;
   margin-top: 2rem;
 }
+
+/** Main Content Section Styles */
+.main-content {
+  width: 70%;
+  margin-top: 1rem;
+}
+
+.main-content__wrapper{
+  display: flex;
+  flex-wrap: wrap; justify-content: space-around;
+}
+
+.main-content__box {
+  /* background-color: red; */
+  width: 25rem;
+}
+
+.main-content__box-image {
+  width: 100%;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.main-content__box-date {
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+}
+
+.main-content__box-date-time {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0.4rem;
+}
+
+.main-content__box-date-text {
+  font-size: 1rem;
+  font-family: "inter-light", Courier, monospace;
+  color: #9e9e9e;
+}
+
+.main-content__box-date-icon svg,
+.main-content__box-time-icon svg {
+  width: 1.8rem;
+  height: 1.8rem;
+  color: #9e9e9e;
+}
+
+.main-content__box-time {
+  display: flex;
+  align-items: center;
+  margin-right: 0.4rem;
+}
+
+.main-content__box-time-text {
+  font-size: 1rem;
+  font-family: "inter-light", Courier, monospace;
+  color: #9e9e9e;
+}
+
+.main-content__box-title {
+  display: inline-block;
+  font-size: 1.4rem;
+  font-family: "inter-bold", Courier, monospace;
+  margin-bottom: 1rem;
+}
+
+.main-content__box-text {
+  font-size: 1rem;
+  font-family: "inter-light", Courier, monospace;
+  line-height: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.main-content__box-link {
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: var(--gray);
+  color: var(--white);
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-family: "inter-bold", Courier, monospace;
+  /* display: none; */
+  transition: all 200ms ease-in;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+
+
+/* .main-content__box:hover .main-content__box-link {
+  display: block;
+  transition: all 200ms ease-in;
+} */
