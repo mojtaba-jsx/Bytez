@@ -20,14 +20,13 @@
 .main {
   background-color: #eff7fa;
 }
-.content {
+.content__wrapper{
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
+  /* align-items: center; */
 }
 
-.aside-content {
-  width: 30%;
-}
+
 
 /** Path Section Styles */
 
@@ -132,3 +131,11 @@
   display: block;
   transition: all 200ms ease-in;
 } */
+
+/** Aside Content Section Styles */
+
+.aside-content {
+  width: 30%;
+  margin-top: 1rem;
+}
+
