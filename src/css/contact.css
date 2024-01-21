@@ -1,0 +1,20 @@
+/*! Css Imports */
+@import "./reset.css";
+@import "./fonts.css";
+
+
+/*! Css Variables */
+:root {
+  --white: #ffff;
+  --black: black;
+  --gray: #3f3f3f;
+}
+body {
+  background-color: rgb(239, 247, 250);
+}
+
+/*! Container Size */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
