@@ -1,6 +1,7 @@
 /*! Css Imports */
 @import "./reset.css";
 @import "./fonts.css";
+@import './footer.css';
 
 /*! Css Variables */
 :root {
@@ -19,7 +20,9 @@ body {
 }
 
 /* * Main Section Styles */
-
+.main{
+    margin-bottom: 16rem;
+}
 /** Path Section Styles */
 .path-text {
   font-size: 1.4rem;
