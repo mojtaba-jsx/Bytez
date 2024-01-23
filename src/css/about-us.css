@@ -29,3 +29,36 @@
   display: inline-block;
   margin-top: 2rem;
 }
+
+/** Main Section Styles */
+
+/* * About Us Section Styles */
+.about-us{
+  margin-top: 2rem;
+}
+
+.about-us__wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us-image{
+  width: 100%;
+}
+
+.about-us__texts{
+  margin-top: 1rem;
+}
+.about-us-text{
+  font-family: 'inter-regular', Courier, monospace;
+  line-height: 1.4rem;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+.about-us__texts-title{
+  font-size: 1.4rem;
+  font-family: 'inter-bold', Courier, monospace;
+  margin-bottom: 1rem;
+
+}
