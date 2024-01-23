@@ -6,53 +6,52 @@
     margin-right: 1rem;
   }
 }
+
 /* *  ------------------------1230px------------------------ */
 
 @media screen and (max-width: 1230px) {
-  .main__cards-wrapper{
+  .main__cards-wrapper {
     flex-direction: column-reverse;
   }
-  .card__right{
+  .card__right {
     display: block;
     margin: 0 auto;
     margin-top: 2rem;
   }
-  .card__left{
+  .card__left {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
   }
-  .card__right-image{
-    width:22rem;
+  .card__right-image {
+    width: 22rem;
     height: auto;
   }
-  .card__right{
+  .card__right {
     width: 88%;
   }
-  .card__left-1,.card__left-2{
+  .card__left-1,
+  .card__left-2 {
     width: 88%;
   }
 }
 
-
-
-
 /* *  ------------------------1200px------------------------ */
 @media screen and (max-width: 1200px) {
-  .new-arrival__wrapper{
+  .new-arrival__wrapper {
     flex-wrap: wrap;
   }
-  .new-arrival__left{
+  .new-arrival__left {
     width: 80%;
     margin-bottom: 2rem;
   }
-  .new-arrival__right{
+  .new-arrival__right {
     width: 100%;
     margin-right: 2rem;
   }
-  .new-arrival-title{
+  .new-arrival-title {
     text-align: center;
     display: block;
     margin: 0 auto;
@@ -62,21 +61,48 @@
 
 /* *  ------------------------1140px------------------------ */
 @media screen and (max-width: 1140px) {
-  .expreience__wrapper{
+  .expreience__wrapper {
     flex-wrap: wrap;
     flex-direction: column-reverse;
   }
-  .expreience__right{
+  .expreience__right {
     display: block;
     margin: 0 auto;
   }
-  .expreience__left{
+  .expreience__left {
     display: block;
     margin: 0 auto;
     text-align: center;
   }
-  .expreience{
+  .expreience {
     height: 50rem;
+  }
+
+  .contact__wrapper {
+    flex-wrap: wrap;
+  }
+  .contact__left {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    width: 75%;
+    margin-bottom: 2rem;
+  }
+  .path {
+    margin-left: 1rem;
+  }
+  .contact__right-form-tag input:nth-child(3) {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  .contact__right-btn {
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  .contact__right {
+    display: block;
+    margin: 0 auto;
   }
 }
 
@@ -93,30 +119,26 @@
     margin-right: 1rem;
     margin-left: 1rem;
   }
-  .card__right-info-title{
+  .card__right-info-title {
     font-size: 3.2rem;
   }
-  .card__right-info-subtitle{
+  .card__right-info-subtitle {
     font-size: 2rem;
   }
 
-  .news-title{
+  .news-title {
     display: block;
     margin: 0 auto;
     margin-bottom: 2.5rem;
     margin-top: 8rem;
   }
-
-
 }
 
 /* *  ------------------------945px------------------------ */
 @media screen and (max-width: 945px) {
-  .search-icons{
-    
+  .search-icons {
   }
 }
-
 
 /* *  ------------------------940px------------------------ */
 @media screen and (max-width: 940px) {
@@ -124,7 +146,7 @@
 
 /* *  ------------------------910px------------------------ */
 @media screen and (max-width: 910px) {
-  .services{
+  .services {
     height: 16rem;
   }
 }
@@ -149,17 +171,15 @@
     height: 10rem;
   }
 
-  .header{
+  .header {
     height: 12rem;
   }
-  .search-icons__user{
+  .search-icons__user {
     display: none;
   }
-  .card__right-image{
+  .card__right-image {
     width: 20rem;
   }
-
-
 }
 
 /* *  ------------------------925px------------------------ */
@@ -172,15 +192,25 @@
 
 /* *  ------------------------805px------------------------ */
 @media screen and (max-width: 805px) {
-  .card__right-info-title{
+  .card__right-info-title {
     font-size: 2.2rem;
   }
-  .card__right-info-subtitle{
+  .card__right-info-subtitle {
     font-size: 1.2rem;
   }
 }
 
-
+/* *  ------------------------740px------------------------ */
+@media screen and (max-width: 740px) {
+  .contact__right-form-tag input {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  .contact__right {
+    padding-bottom: 4rem;
+  }
+}
 
 /* *  ------------------------660px------------------------ */
 @media screen and (max-width: 660px) {
@@ -190,60 +220,56 @@
   .signup__box input {
     width: 22rem;
   }
-  .login__box{
+  .login__box {
     width: 30rem;
   }
-  .login__box-form div input{
+  .login__box-form div input {
     width: 20rem;
   }
-  .login__box-form-line::before{
+  .login__box-form-line::before {
     width: 4rem;
-    right:7rem;
+    right: 7rem;
   }
-  .login__box-form-line::after{
+  .login__box-form-line::after {
     width: 4rem;
     left: 7rem;
   }
 
-  .expreience__left-timer{
+  .expreience__left-timer {
     flex-wrap: wrap;
   }
 }
 
 /* *  ------------------------635px------------------------ */
 @media screen and (max-width: 635px) {
-
-
 }
+
 /* *  ------------------------620px------------------------ */
 @media screen and (max-width: 620px) {
-  .services{
+  .services {
     height: 40rem;
   }
-  .new-arrival__left-image{
+  .new-arrival__left-image {
     width: 22rem;
   }
-
 }
 
 /* *  ------------------------610px------------------------ */
 @media screen and (max-width: 610px) {
-
 }
+
 /* *  ------------------------572px------------------------ */
 @media screen and (max-width: 572px) {
-  .card__right-info-title{
+  .card__right-info-title {
     font-size: 1.2rem;
   }
-  .card__right-info-subtitle{
+  .card__right-info-subtitle {
     font: 0.8rem;
   }
-  .recommended{
+  .recommended {
     margin-top: 28rem;
   }
 }
-
-
 
 /* *  ------------------------560px------------------------ */
 @media screen and (max-width: 560px) {
@@ -261,29 +287,30 @@
   .footer-top__wrapper div {
     margin-bottom: 2rem;
   }
-  .signup__box-login-link{
+  .signup__box-login-link {
     width: 14rem;
   }
 }
 
 /* *  ------------------------540px------------------------ */
 @media screen and (max-width: 540px) {
-.signup__box{
+  .signup__box {
     left: 42%;
-}
-    .footer-top__col5-input{
-        display: block;
-        margin: 0 auto;
-    }
-    .footer-top__col5{
-        width: 100%;
-        text-align: center;
-    }
+  }
+  .footer-top__col5-input {
+    display: block;
+    margin: 0 auto;
+  }
+  .footer-top__col5 {
+    width: 100%;
+    text-align: center;
+  }
 
-    .footer-top__col4,.footer-top__col6{
-        width: 100%;
-        text-align: center;
-    }
+  .footer-top__col4,
+  .footer-top__col6 {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /* *  ------------------------530px------------------------ */
@@ -299,19 +326,20 @@
     width: 10rem;
     height: auto;
   }
-  .login__box{
+  .login__box {
     left: 48%;
   }
-  .login__box{
+  .login__box {
     width: 26rem;
   }
-  .login__box-form div input{
+  .login__box-form div input {
     width: 18rem;
   }
-  .login__box-login-link,.login__box-login-account{
+  .login__box-login-link,
+  .login__box-login-account {
     width: 14rem;
   }
-  .login__box-title{
+  .login__box-title {
     font-size: 1.2rem;
   }
 }
@@ -333,7 +361,7 @@
   .header-changes {
     height: 12rem;
   }
-  .signin-signup{
+  .signin-signup {
     top: 4.8rem;
   }
 }
@@ -356,54 +384,53 @@
   .signup__box-login-link {
     width: 12rem;
   }
-  .expreience__right-image{
+  .expreience__right-image {
     width: 22rem;
   }
-  .expreience__left-title{
+  .expreience__left-title {
     font-size: 1.8rem;
   }
   .expreience__left-timer div {
     width: 2.5rem;
     height: 2.5rem;
   }
-  
-  .expreience__left-timer div span{
+
+  .expreience__left-timer div span {
     font-size: 0.8rem;
   }
 
-  .expreience__btn{
+  .expreience__btn {
     padding: 1rem 3.2rem;
   }
 
-  .new-arrival__right-top-image{
+  .new-arrival__right-top-image {
     width: 20rem;
   }
 
-  .new-arrival__right-bottom{
+  .new-arrival__right-bottom {
     flex-direction: column;
     width: 100%;
   }
-  .new-arrival__right-bottom__left,.new-arrival__right-bottom__right{
+  .new-arrival__right-bottom__left,
+  .new-arrival__right-bottom__right {
     width: 100%;
     margin-bottom: 2rem;
   }
-
-
 }
 
 /* *  ------------------------450px------------------------ */
 @media screen and (max-width: 450px) {
-  .login__box{
+  .login__box {
     width: 20rem;
   }
-  .login__box-form-btn{
+  .login__box-form-btn {
     width: 12rem;
   }
-  .login__box-form-line::before{
+  .login__box-form-line::before {
     width: 4rem;
-    right:4rem;
+    right: 4rem;
   }
-  .login__box-form-line::after{
+  .login__box-form-line::after {
     width: 4rem;
     left: 4rem;
   }
@@ -411,15 +438,15 @@
     left: 4.2rem;
   }
 
-  .landing__wrapper{
+  .landing__wrapper {
     margin-top: 4rem;
     padding-top: 8rem;
   }
-  .landing__info{
+  .landing__info {
     top: 10rem;
   }
-
 }
+
 /* *  ------------------------435px------------------------ */
 @media screen and (max-width: 435px) {
   .header-changes {
@@ -428,16 +455,17 @@
   .login__box-form-inputbox svg {
     left: 2.2rem;
   }
-  .new-arrival__left-image{
+  .new-arrival__left-image {
     width: 14rem;
   }
-  .new-arrival__left-infos,.new-arrival__right-top-infos,.new-arrival__right-bottom__left-infos{
+  .new-arrival__left-infos,
+  .new-arrival__right-top-infos,
+  .new-arrival__right-bottom__left-infos {
     width: 14rem;
   }
-  .new-arrival__left{
+  .new-arrival__left {
     height: 30rem;
   }
-
 }
 
 /* *  ------------------------414px------------------------ */
@@ -458,45 +486,34 @@
     font-size: 1rem;
     text-align: center;
   }
-  .header{
+  .header {
     height: 16rem;
   }
 }
 
 /* *  ------------------------400px------------------------ */
 @media screen and (max-width: 400px) {
-  .card__left-1,.card__left-2{
+  .card__left-1,
+  .card__left-2 {
     height: 30rem;
   }
-  .card__right-image{
+  .card__right-image {
     width: 14rem;
   }
-  .card__left-1-info,.card__left-2-info{
-    max-width:12rem;
+  .card__left-1-info,
+  .card__left-2-info {
+    max-width: 12rem;
   }
 
-  .expreience__right-image{
+  .expreience__right-image {
     width: 14rem;
   }
-  .brands__title{
+  .brands__title {
     width: 10rem;
   }
-  .new-arrival__right-top-image{
+  .new-arrival__right-top-image {
     width: 14rem;
   }
-
-
-}
-/* *  ------------------------365px------------------------ */
-@media screen and (max-width: 365px){
-  .card__left-1-image,.card__left-2-image{
-    right: 0;
-    width: 14rem;
-  }
-  .expreience__left-timer{
-    margin-left: 2rem;
-  }
-
 }
 
 /* *  ------------------------380px------------------------ */
@@ -506,6 +523,24 @@
   }
   .signup__box {
     margin-left: 1rem;
+  }
+}
+
+/* *  ------------------------365px------------------------ */
+@media screen and (max-width: 365px) {
+  .card__left-1-image,
+  .card__left-2-image {
+    right: 0;
+    width: 14rem;
+  }
+  .expreience__left-timer {
+    margin-left: 2rem;
+  }
+  .contact__left-line svg {
+    width: 8rem;
+  }
+  .contact__right-form-tag input {
+    width: 12rem;
   }
 }
 
@@ -524,18 +559,16 @@
     left: 2.2rem;
   }
 
-  .services__box-title{
+  .services__box-title {
     font-size: 1rem;
   }
-  .services__box-text{
+  .services__box-text {
     font-size: 0.9rem;
   }
-  .services__box-logo-svg{
+  .services__box-logo-svg {
     width: 2rem;
     height: 2rem;
   }
-
-
 }
 
 /* *  ------------------------305px------------------------ */
@@ -546,23 +579,24 @@
   .landing__text {
     font-size: 0.7rem;
   }
-  .card__left-1-image,.card__left-2-image{
+  .card__left-1-image,
+  .card__left-2-image {
     right: 0;
     width: 12rem;
   }
-  .card__left-1-info,.card__left-2-info{
+  .card__left-1-info,
+  .card__left-2-info {
     max-width: 8rem;
   }
-  .expreience__left-timer{
+  .expreience__left-timer {
     margin-left: 4rem;
   }
-  .expreience__btn{
+  .expreience__btn {
     font-size: 1rem;
   }
-  .new-arrival__right-top-image{
+  .new-arrival__right-top-image {
     width: 10rem;
   }
-
 }
 
 /* *  ------------------------288px------------------------ */
