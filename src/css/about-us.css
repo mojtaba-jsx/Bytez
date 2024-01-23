@@ -35,6 +35,7 @@
 /* * About Us Section Styles */
 .about-us{
   margin-top: 2rem;
+  padding-bottom: 4rem;
 }
 
 .about-us__wrapper{
