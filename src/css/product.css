@@ -65,7 +65,6 @@
   margin-top: 1rem;
   line-height: 1.8rem;
   font-family: "inter-regular", Courier, monospace;
-
 }
 
 .product-box__right-line {
@@ -97,7 +96,7 @@
   margin-right: 0.5rem;
 }
 
-.product-box__right-price-star-text{
+.product-box__right-price-star-text {
   font-size: 1.8rem;
   font-family: "inter-bold", Courier, monospace;
 }
@@ -114,20 +113,19 @@
   font-family: "inter-bold", Courier, monospace;
 }
 
-
-.product-box__right-add-to-cart{
+.product-box__right-add-to-cart {
   display: flex;
   margin-top: 4rem;
   align-items: center;
   align-items: center;
 }
 
-.product-box__right-add-to-cart-counter{
+.product-box__right-add-to-cart-counter {
   display: flex;
   /* align-items: center; */
 }
 
-.product-box__right-add-to-cart-counter button:nth-child(1){
+.product-box__right-add-to-cart-counter button:nth-child(1) {
   padding: 0.5rem 1rem;
   font-size: 1.4rem;
   border-top-left-radius: 1rem;
@@ -137,9 +135,8 @@
   background-color: var(--white);
   height: 4rem;
   cursor: pointer;
-
 }
-.product-box__right-add-to-cart-counter button:nth-child(3){
+.product-box__right-add-to-cart-counter button:nth-child(3) {
   padding: 0.5rem 1rem;
   font-size: 1.4rem;
   border-top-right-radius: 1rem;
@@ -149,14 +146,13 @@
   background-color: var(--white);
   height: 4rem;
   cursor: pointer;
-
 }
 
-.product-box__right-add-to-cart-btn{
+.product-box__right-add-to-cart-btn {
   margin-left: 1rem;
 }
 
-.product-box__right-add-to-cart-counter input  {
+.product-box__right-add-to-cart-counter input {
   text-align: center;
   width: 6rem;
   background-color: var(--white);
@@ -172,20 +168,19 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-
-.product-box__right-add-to-cart-btn button{
+.product-box__right-add-to-cart-btn button {
   width: 20rem;
   height: 4rem;
 }
 
-.product-box__right-add-to-cart-btn button svg{
+.product-box__right-add-to-cart-btn button svg {
   width: 2rem;
   height: 2rem;
   color: var(--white);
   fill: var(--white);
 }
 
-.product-box__right-add-to-cart-btn button{
+.product-box__right-add-to-cart-btn button {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -199,25 +194,17 @@ input::-webkit-inner-spin-button {
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+/** Tab Navigation Section Styles */
+.tab-navigation{
+  margin-top: 4rem;
+}
 .tab {
   overflow: hidden;
   display: flex;
   justify-content: space-around;
   color: var(--white);
-  border-bottom:2px solid var(--gray);
+  border-bottom: 2px solid var(--gray);
 }
-
 
 .tab button {
   background-color: inherit;
@@ -227,13 +214,13 @@ input::-webkit-inner-spin-button {
   cursor: pointer;
   padding: 14px 20rem;
   transition: 0.3s;
+  font-family: "inter-bold", Courier, monospace;
+  font-size: 1.2rem;
 }
-
 
 .tab button:hover {
   background-color: var(--gray);
 }
-
 
 .tab button.active {
   background-color: var(--black);
@@ -241,16 +228,17 @@ input::-webkit-inner-spin-button {
   border-bottom: 4px solid black;
 }
 
-
 .tabcontent {
   display: none;
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+  height: 14rem;
+  margin-bottom: 4rem;
+  font-size: 1.2rem;
+  font-family: "inter-regular", Courier, monospace;
+  line-height: 1.4rem;
 }
-
-
-
 
 .tabcontent {
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
@@ -258,6 +246,25 @@ input::-webkit-inner-spin-button {
 
 /* Go from zero to full opacity */
 @keyframes fadeEffect {
-  from {opacity: 0;}
-  to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.information-item {
+  margin-bottom: 1rem;
+  font-family: "inter-regular", Courier, monospace;
+  position: relative;
+  padding-left: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.information-item svg {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
 }
