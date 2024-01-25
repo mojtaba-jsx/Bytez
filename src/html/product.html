@@ -245,7 +245,8 @@
               <span class="product-box__right-name"> Iphone 15 Pro </span>
               <p class="product-box__right-description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod <br> tempor incididunt ut labore et dolore magna aliqua.
+                eiusmod <br />
+                tempor incididunt ut labore et dolore magna aliqua.
               </p>
               <span class="product-box__right-line">
                 <svg
@@ -266,8 +267,10 @@
               </span>
               <div class="product-box__right-price">
                 <div class="product-box__right-org-discount">
-                  <span class="product-box__right-discount-price"> 1500 $ </span>
-                  <span class="product-box__right-org-price">1200$</span>
+                  <span class="product-box__right-discount-price">
+                    1200 $
+                  </span>
+                  <span class="product-box__right-org-price">1500$</span>
                 </div>
                 <div class="product-box__right-price-star">
                   <span class="product-box__right-price-star-icon">
@@ -331,8 +334,34 @@
           </div>
         </div>
       </section>
+
+      <section class="tab-navigation">
+        <div class="container">
+          <div class="tab-navigation__wrapper">
+            <div class="tab">
+              <button id="defaultOpen" class="tablinks" onclick="openCity(event, 'information')">Information</button>
+              <button class="tablinks" onclick="openCity(event, 'description')">Description</button>
+            </div>
+            
+            <!-- Tab content -->
+            <div id="information" class="tabcontent">
+              <ul class="information">
+                <li class="information-item">128 GB ROM</li>
+                <li class="information-item">15.49 cm (6.1 inch) Super Retina XDR Display</li>
+                <li class="information-item">12MP + 12MP | 12MP Front Camera</li>
+                <li class="information-item">A15 Bionic Chip, 6 Core Processor Processor</li>
+              </ul>
+            </div>
+            
+            <div id="description" class="tabcontent">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ad laborum, delectus quasi, adipisci ex similique voluptatum blanditiis veniam nobis distinctio debitis ab nisi soluta obcaecati eaque ut eum sint facilis! Nostrum odit at doloribus voluptatum molestias velit ipsum provident. Officia incidunt hic nostrum quis ipsam voluptatum omnis modi dicta recusandae! Assumenda, impedit. Eum porro unde et ut quas at accusantium consectetur molestiae, fuga aperiam. Quod enim fugit placeat corrupti, harum doloribus autem fugiat saepe nemo nesciunt ipsam odio esse doloremque tempora asperiores mollitia, aspernatur quaerat omnis porro incidunt iste deserunt unde. In error inventore vero nam. Ea, aut libero?
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <script src="../js/shared.js"></script>
+    <script src="../js/product.js"></script>
   </body>
 </html>
