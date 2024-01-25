@@ -268,3 +268,103 @@ input::-webkit-inner-spin-button {
   height: 2rem;
   margin-right: 0.5rem;
 }
+
+
+/** Rating Section Styles */
+.rating{
+  margin-bottom: 4rem;
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+}
+.rating-title{
+  background-color: var(--white);
+  padding: 1rem 2.5rem;
+  border-bottom: 4px solid black;
+  font-family: "inter-bold", Courier, monospace;
+  font-size: 1.2rem;
+}
+
+.rating__wrapper{
+  display: flex;
+  justify-content: space-around;
+  border-top: 2px solid var(--gray);
+  margin-top: 1.2rem;
+}
+
+
+.rating__left-rate{
+  display: flex;
+  align-items: center;
+  font-size: 4rem;
+  font-family: "inter-bold", Courier, monospace;
+
+}
+.rating__left-rate svg{
+  width: 8rem;
+  height: 8rem;
+  color: gold;
+  fill: gold;
+
+}
+
+.rating__left-rate-info{
+  font-size:1.4rem;
+  font-family: "inter-regular", Courier, monospace;
+
+}
+
+.rating__right{
+  display: flex;
+  flex-direction: column;
+}
+
+.rating__right-score{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rating__right-score-star{
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  font-family: "inter-bold", Courier, monospace;
+}
+
+.rating__right-score-star svg{
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 1rem;
+  color: gold;
+  fill: gold;
+}
+
+.rating__right-progress-bar{
+  width: 16rem;
+  height: 1rem;
+  border-radius: 1rem;
+  background-color: var(--white);
+}
+
+.rating__right-progress-bar-percent{
+  background-color: green;
+  width: 5rem;
+  height: 1rem;
+  border-radius: 1rem;
+}
+
+.rating__right-score:nth-child(1) .rating__right-progress-bar .rating__right-progress-bar-percent{
+  width: 16rem;
+}
+.rating__right-score:nth-child(2) .rating__right-progress-bar .rating__right-progress-bar-percent{
+  width: 14rem;
+}
+.rating__right-score:nth-child(3) .rating__right-progress-bar .rating__right-progress-bar-percent{
+  width: 12rem;
+}
+.rating__right-score:nth-child(4) .rating__right-progress-bar .rating__right-progress-bar-percent{
+  width: 8rem;
+}
+.rating__right-score:nth-child(5) .rating__right-progress-bar .rating__right-progress-bar-percent{
+  width: 4rem;
+}
