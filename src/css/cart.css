@@ -34,3 +34,139 @@
   display: inline-block;
   margin-top: 2rem;
 }
+
+/** Main Section Styles */
+
+/** Cart Section Styles */
+.cart__left{
+  width: 70%;
+}
+.cart-title{
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.cart-title-info{
+  font-size: 2rem;
+  font-family: "inter-bold", Courier, monospace;
+}
+
+.cart-title-number{
+  font-size: 1.2rem;
+  font-family: "inter-bold", Courier, monospace;
+  color: var(--gray);
+  opacity: 0.8;
+  margin-left: 1rem;
+}
+
+.cart__box{
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: start; */
+  border-bottom: 2px solid var(--gray);
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cart__box-left img{
+  width: 10rem;
+}
+
+.cart__box-right{
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+}
+
+.cart__box-right-name{
+  font-size: 1.4rem;
+  font-family: "inter-bold", Courier, monospace;
+}
+
+.cart__box-right--info{
+  font-size: 1rem;
+  font-family: "inter-light", Courier, monospace;
+  margin-top: 1rem;
+  width: 34rem;
+  line-height: 1.4rem;
+
+}
+
+.cart__box-right-price{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.cart__box-right-price-left{
+  display: flex;
+  align-items: center;
+}
+
+.cart__box-right-price-left-cart-counter{
+  width: 12rem;
+  border: 2px solid #A2A3B1;
+  display: flex;
+  justify-content: space-around;
+  /* border-radius: 1rem; */
+  border-radius: 0.2rem;
+}
+
+
+.cart__box-right-price-left-cart-counter button{
+  height: 2.8rem;
+  width: 4rem;
+  font-size: 1.4rem;
+  background-color: #EFF7FA;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+.cart__box-right-price-left-cart-counter input{
+  text-align: center;
+  width: 7rem;
+  background-color: #EFF7FA;
+  border: none;
+  outline: none;
+}
+
+
+.cart__box-right-price-left-empty{
+  border: 2px solid #A2A3B1;
+
+  border-radius: 0.2rem;
+  margin-left: 1rem;
+}
+
+.cart__box-right-price-left-empty svg{
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+
+.cart__box-right-price-right{
+  display: flex;
+  flex-direction: column;
+  margin-left: 8rem;
+}
+
+.cart__box-right-price-right-title{
+  font-size: 1.2rem;
+  font-family: "inter-regular", Courier, monospace;  
+}
+
+.cart__box-right-price-right-totalprice{
+  font-size: 1.4rem;
+  font-family: "inter-bold", Courier, monospace; 
+  margin-top: 0.5rem; 
+}
