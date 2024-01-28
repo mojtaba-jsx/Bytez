@@ -31,10 +31,15 @@
 
 /** Main Section Styles */
 .dashboard{
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
   margin-top: 2rem;
   padding-bottom: 10rem;
+}
+
+.dashboard__wrapper{
+  display: flex;
+  justify-content: space-between;
 }
 
 /* ! Aside Menu Section Styles */
