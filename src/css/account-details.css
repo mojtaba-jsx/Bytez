@@ -1,0 +1,91 @@
+/*! Css Imports */
+@import "./reset.css";
+@import "./fonts.css";
+@import "./footer.css";
+
+/*! Css Variables */
+:root {
+  --white: #ffff;
+  --black: black;
+  --gray: #3f3f3f;
+}
+
+/*! Container Size */
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/** Main Section Styles */
+.main {
+  background-color: #eff7fa;
+}
+
+/** Path Section Styles */
+
+.path-text {
+  font-size: 1.4rem;
+  font-family: "inter-bold", Courier, monospace;
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+
+/* ! Aside Menu Section Styles */
+.aside-menu__link svg {
+  width: 2rem;
+  height: 2rem;
+  color: var(--black);
+  margin-right: 1rem;
+  transition: all 140ms ease-in;
+}
+
+.aside-menu {
+  width: 20%;
+  background-color: var(--white);
+  margin-left: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.dashboard-info {
+  width: 80%;
+}
+
+.aside-menu__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.aside-menu__item {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  transition: all 140ms ease-in;
+  border-radius: 1rem;
+}
+
+.aside-menu__item:hover {
+  background-color: var(--black);
+}
+
+.aside-menu__item:hover .aside-menu__link svg {
+  color: var(--white);
+}
+
+.aside-menu__item:hover .aside-menu__link {
+  color: var(--white);
+}
+
+.aside-menu__link {
+  display: flex;
+  align-items: center;
+  color: #8b8e99;
+  font-family: "inter-bold", Courier, monospace;
+  margin-left: 1rem;
+}
+
+
+/** Account Section Styles */
+.account{
+  margin-top: 2rem;
+}
