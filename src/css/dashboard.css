@@ -30,14 +30,14 @@
 }
 
 /** Main Section Styles */
-.dashboard{
+.dashboard {
   /* display: flex;
   justify-content: space-between; */
   margin-top: 2rem;
   padding-bottom: 10rem;
 }
 
-.dashboard__wrapper{
+.dashboard__wrapper {
   display: flex;
   justify-content: space-between;
 }
@@ -51,7 +51,7 @@
   transition: all 140ms ease-in;
 }
 
-.aside-menu{
+.aside-menu {
   width: 20%;
   background-color: var(--white);
   margin-left: 2rem;
@@ -59,39 +59,254 @@
   border-radius: 1rem;
 }
 
-.dashboard-info{
+.dashboard-info {
   width: 80%;
 }
 
-.aside-menu__list{
+.aside-menu__list {
   display: flex;
   flex-direction: column;
 }
 
-.aside-menu__item{
+.aside-menu__item {
   margin-bottom: 1rem;
   padding: 0.5rem;
   transition: all 140ms ease-in;
   border-radius: 1rem;
 }
 
-.aside-menu__item:hover{
+.aside-menu__item:hover {
   background-color: var(--black);
 }
 
-.aside-menu__item:hover .aside-menu__link svg{
+.aside-menu__item:hover .aside-menu__link svg {
   color: var(--white);
 }
 
-.aside-menu__item:hover .aside-menu__link{
+.aside-menu__item:hover .aside-menu__link {
   color: var(--white);
 }
 
-.aside-menu__link{
+.aside-menu__link {
   display: flex;
   align-items: center;
-  color: #8B8E99;
-  font-family: 'inter-bold', Courier, monospace;
+  color: #8b8e99;
+  font-family: "inter-bold", Courier, monospace;
   margin-left: 1rem;
 }
 
+/** Dashboard Info Section Styles */
+/*! Dashboard Info Orders  Styles */
+
+.dashboard-info__orders {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dashboard-info__orders-box {
+  display: flex;
+  align-content: center;
+  padding: 1rem 4rem;
+}
+
+.dashboard-info__orders-box:nth-child(1) {
+  background-color: #addeff6d;
+  border: 1px solid #2da5f3;
+}
+
+.dashboard-info__orders-box:nth-child(2) {
+  background-color: #ffc8a44d;
+  border: 1px solid #fa8232;
+}
+.dashboard-info__orders-box:nth-child(3) {
+  background-color: #97ff8f63;
+  border: 1px solid #2db224;
+}
+
+.dashboard-info__orders-box:nth-child(1) .dashboard-info__orders-box-left svg {
+  color: #2da5f3;
+}
+
+.dashboard-info__orders-box:nth-child(2) .dashboard-info__orders-box-left svg {
+  color: #fa8232;
+}
+
+.dashboard-info__orders-box:nth-child(3) .dashboard-info__orders-box-left svg {
+  color: #2db224;
+}
+
+.dashboard-info__orders-box-left svg {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.dashboard-info__orders-box-left {
+  background-color: var(--white);
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+.dashboard-info__orders-box-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard-info__orders-box-right-number {
+  font-size: 1.2rem;
+  font-family: "inter-bold", Courier, monospace;
+}
+
+.dashboard-info__orders-box-right-text {
+  font-size: 1rem;
+  font-family: "inter-regular", Courier, monospace;
+  margin-top: 1rem;
+}
+
+/*! Dashboard Info User Styles */
+
+.dashboard-info__user {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+.dashboard-info__user-name {
+  font-size: 1.2rem;
+  font-family: "inter-bold", Courier, monospace;
+}
+
+.dashboard-info__user-text {
+  font-family: "inter-regular", Courier, monospace;
+  margin-top: 1rem;
+  line-height: 1.2rem;
+}
+
+.dashboard-info__user-text a {
+  color: #2da5f3;
+}
+
+
+/*! Dashboard Info Boxes  Styles */
+
+.dashboard-info-boxes {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+/*! Dashboard info box Account Styles */
+.dashboard-info-boxes__account {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 1rem;
+
+}
+
+.dashboard-info-boxes__account-title {
+  font-size: 1rem;
+  font-family: "inter-bold", Courier, monospace;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e4e7e9;
+}
+
+.dashboard-info-boxes__account-profile {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.dashboard-info-boxes__account-profile-username {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+
+.dashboard-info-boxes__account-profile-username-name {
+  font-family: "inter-bold", Courier, monospace;
+}
+
+.dashboard-info-boxes__account-profile-username-location {
+  font-family: "inter-regular", Courier, monospace;
+  margin-top: 0.5rem;
+  color: #5f6c72;
+}
+
+.dashboard-info-boxes__account-more-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.dashboard-info-boxes__account-more-info-email {
+  font-family: "inter-regular", Courier, monospace;
+}
+.dashboard-info-boxes__account-more-info-phone {
+  font-family: "inter-regular", Courier, monospace;
+  margin-top: 0.5rem;
+}
+
+.dashboard-info-boxes__account-more-info-edit {
+  border: 2px solid var(--black);
+  width: 10rem;
+  text-align: center;
+  padding: 1.4rem 1rem;
+  margin-top: 3.4rem;
+  border-radius: 1rem;
+  font-family: "inter-bold", Courier, monospace;
+  color: var(--black);
+}
+
+/*! Dashboard info box Address Styles */
+
+.dashboard-info-boxes__address {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.dashboard-info-boxes__address-title {
+  font-size: 1rem;
+  font-family: "inter-bold", Courier, monospace;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #e4e7e9;
+}
+
+.dashboard-info-boxes__address-infos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.dashboard-info-boxes__address-infos-name {
+  font-family: "inter-bold", Courier, monospace;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-info-boxes__address-infos-text,
+.dashboard-info-boxes__address-infos-text,
+.dashboard-info-boxes__address-infos-phone,
+.dashboard-info-boxes__address-infos-email {
+  font-family: "inter-regular", Courier, monospace;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-info-boxes__address-infos-change {
+  border: 2px solid var(--black);
+  width: 10rem;
+  text-align: center;
+  padding: 1.4rem 1rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  font-family: "inter-bold", Courier, monospace;
+  color: var(--black);
+}
