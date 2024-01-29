@@ -48,10 +48,6 @@
   border-radius: 1rem;
 }
 
-.dashboard-info {
-  width: 80%;
-}
-
 .aside-menu__list {
   display: flex;
   flex-direction: column;
@@ -88,4 +84,102 @@
 /** Account Section Styles */
 .account{
   margin-top: 2rem;
+}
+
+.account__wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+
+.account-details {
+  width: 80%;
+  margin-left: 8rem;
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.account-details-title{
+  font-size: 1.2rem;
+  font-family: "inter-bold", Courier, monospace;
+  text-transform: uppercase;
+  border-bottom: 2px solid #E4E7E9;
+  width: 100%;
+  display: block;
+  padding-bottom: 1rem;
+}
+
+.account-details-box{
+  display: flex;
+  /* align-items: center; */
+}
+
+
+.account-details-box-right__form{
+  display: flex;
+  flex-direction: column;
+}
+
+.account-details-box-right__form-row1,.account-details-box-right__form-row2 ,.account-details-box-right__form-row3 ,.account-details-box-right__form-row4{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+
+
+.form-label{
+  font-size: 1.2rem;
+  font-family: "inter-regular", Courier, monospace;
+  display: block;
+  margin-top: 1rem;
+}
+
+input{
+  padding: 1rem 4rem;
+  margin-right: 1.4rem;
+  border: 2px solid #E4E7E9;
+  outline: none;
+  text-align: center;
+  font-size: 1rem;
+  font-family: "inter-light", Courier, monospace;
+  border-radius: 1rem;
+  transition: all 140ms ease-in;
+}
+
+input::placeholder{
+  font-family: "inter-regular", Courier, monospace;
+}
+
+input:focus{
+  border: 2px solid var(--black);
+  transform: scale(1.1);
+
+}
+
+.account-details-box-right__form-country,.account-details-box-right__form-states{
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border: 2px solid #E4E7E9;
+  outline: none;
+  margin-right: 1rem;
+}
+
+.account-details-box-right__form-row4__pin input {
+  padding: 1rem 1rem;
+  
+}
+
+.account-details-box-right__form-btn{
+  width: 12rem;
+  height: 4rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  font-family: "inter-bold", Courier, monospace;
+  font-size: 1.2rem;
+  background-color: var(--black);
+  color: var(--white);
+
 }
