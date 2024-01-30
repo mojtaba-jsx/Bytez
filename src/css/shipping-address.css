@@ -45,6 +45,7 @@
   margin-left: 2rem;
   padding: 1rem;
   border-radius: 1rem;
+  height: 20rem;
 }
 
 .aside-menu__list {
@@ -76,5 +77,112 @@
   align-items: center;
   color: #8b8e99;
   font-family: "inter-bold", Courier, monospace;
+  margin-left: 1rem;
+}
+
+/** Shipping Address section Styles */
+.address{
+  margin-top: 2rem;
+  padding-bottom: 4rem;
+}
+.address__wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.shipping-address{
+  width: 80%;
+  margin-left: 2rem;
+}
+
+.shipping-address__wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.shipping-address-btn{
+  background-color: var(--black);
+  width: 10rem;
+  height: 2rem;
+  text-align: center;
+  color: var(--white);
+  font-family: "inter-bold", Courier, monospace;
+  line-height: 2rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  display: block;
+  margin: 0 auto;
+  margin-right: 1rem;
+}
+
+.shipping-address__box{
+  background-color: var(--white);
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
+
+.shipping-address__box-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #E4E7E9;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+}
+
+.shipping-address__box-top-btns{
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  margin-top: 1rem;
+}
+
+.shipping-address__box-top-radio input {
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-left: 1rem;
+}
+
+.shipping-address__box-top-btns-default{
+  background-color: #279CF0;
+  padding: 0.8rem;
+  color: var(--white);
+  font-family: "inter-regular", Courier, monospace;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+}
+
+.shipping-address__box-top-btns-remove,.shipping-address__box-top-btns-edit {
+  border: 2px solid #E4E7E9;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+.shipping-address__box-top-btns-remove svg,.shipping-address__box-top-btns-edit svg{
+  color: var(--gray);
+  width: 2rem;
+  height: 2rem;
+}
+
+.shipping-address__box__bottom{
+  display: flex;
+  flex-direction: column;
+}
+
+.shipping-address__box__bottom span{
+  margin-bottom: 1rem;
+}
+
+.shipping-address__box__bottom-name{
+  font-size: 1.4rem;
+  font-family: "inter-bold", Courier, monospace;
+  margin-left: 1rem;
+
+}
+
+.shipping-address__box__bottom-address,.shipping-address__box__bottom-phone{
+  font-size: 1.2rem;
+  font-family: "inter-regular", Courier, monospace;
   margin-left: 1rem;
 }
