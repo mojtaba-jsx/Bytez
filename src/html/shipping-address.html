@@ -307,7 +307,7 @@
               </div>
             </aside>
 
-            <section class="shipping-address">
+            <section class="shipping-address" style="display: none;">
               <div class="shipping-address__wrapper">
                 <a href="#" class="shipping-address-btn">Add Address</a>
                 <div class="shipping-address-boxes">
@@ -505,9 +505,94 @@
                 </div>
               </div>
             </section>
+
+            <section class="address-modal">
+              <div class="address-modal__wrapper">
+                <div class="address-modal__top">
+                  <span class="address-modal__top-title">Create Address</span>
+                  <span class="address-modal__top-location">Use My Location</span>
+                </div>
+
+                <div class="address-modal__bottom">
+                  <form class="address-modal__form">
+
+                    <div class="address-modal__form-row1">
+                      <div class="address-modal__form-row1-username">
+                        <label>UserName</label>
+                        <input type="text" placeholder="UserName">
+                        <label>LastName</label>
+                        <input type="text" placeholder="LastName">
+                      </div>
+                      <div class="address-modal__form-row1-company">
+                        <label>Company Name <span>(Optional)</span></label>
+                        <input type="text" placeholder="CompanyName">
+                      </div>
+                    </div>
+
+                    <div class="address-modal__form-row2">
+                      <label>Address</label>
+                      <input type="text" placeholder="Address">
+                    </div>
+
+                    <div class="address-modal__form-row3">
+
+                      <div class="address-modal__form-row3-country">
+                        <label>Country</label>
+                        <select name="" id="">
+                          <option value="iran">Iran</option>
+                          <option value="canada">Canada</option>
+                          <option value="germany">Germany</option>
+                          <option value="italy">Italy</option>
+                        </select>
+                      </div>
+
+                      <div class="address-modal__form-row3-region">
+                        <label>Region/State</label>
+                        <select name="" id="">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                        </select>
+                      </div>
+
+                      <div class="address-modal__form-row3-city">
+                        <select name="" id="">
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                        </select>
+                      </div>
+
+                      <div class="address-modal__form-row3-zipcode">
+                        <label>Zip Code</label>
+                        <input type="text" placeholder="Zip Code">
+                      </div>
+                    </div>
+
+                    <div class="address-modal__form-row4">
+                      <div class="address-modal__form-row4-email">
+                        <label>Email</label>
+                        <input type="email" placeholder="Email">
+                      </div>
+
+                      <div class="address-modal__form-row4-phone">
+                        <label>Phone Number</label>
+                        <input type="text" placeholder="Phone Number">
+                      </div>
+                    </div>
+                    
+                    <button class="address-modal__form-btn">Save</button>
+                  </form>
+                </div>
+              </div>
+            </section>
           </div>
         </div>
       </section>
+
+
     </main>
 
     <footer class="footer">
