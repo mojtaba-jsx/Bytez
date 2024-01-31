@@ -307,7 +307,7 @@
               </div>
             </aside>
 
-            <section class="shipping-address" style="display: none;">
+            <section class="shipping-address">
               <div class="shipping-address__wrapper">
                 <a href="#" class="shipping-address-btn">Add Address</a>
                 <div class="shipping-address-boxes">
@@ -506,39 +506,60 @@
               </div>
             </section>
 
-            <section class="address-modal">
+            <section class="address-modal" style="display: none" >
               <div class="address-modal__wrapper">
                 <div class="address-modal__top">
                   <span class="address-modal__top-title">Create Address</span>
-                  <span class="address-modal__top-location">Use My Location</span>
+                  <span class="address-modal__top-location">
+                    Use My Location
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="w-6 h-6"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                      />
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                      />
+                    </svg>
+                  </span>
                 </div>
 
                 <div class="address-modal__bottom">
                   <form class="address-modal__form">
-
                     <div class="address-modal__form-row1">
                       <div class="address-modal__form-row1-username">
-                        <label>UserName</label>
-                        <input type="text" placeholder="UserName">
-                        <label>LastName</label>
-                        <input type="text" placeholder="LastName">
+                        <label class="form-label">Username</label>
+                        <input type="text" placeholder="UserName" />
+                      </div>
+                      <div class="address-modal__form-row1-lastname">
+                        <label class="form-label">LastName</label>
+                        <input type="text" placeholder="LastName" />
                       </div>
                       <div class="address-modal__form-row1-company">
-                        <label>Company Name <span>(Optional)</span></label>
-                        <input type="text" placeholder="CompanyName">
+                        <label class="form-label">CompanyName <span>(Optional)</span></label>
+                        <input type="text" placeholder="CompanyName" />
                       </div>
                     </div>
 
                     <div class="address-modal__form-row2">
-                      <label>Address</label>
-                      <input type="text" placeholder="Address">
+                      <label class="form-label">Address</label>
+                      <input type="text" placeholder="Address" />
                     </div>
 
                     <div class="address-modal__form-row3">
-
                       <div class="address-modal__form-row3-country">
-                        <label>Country</label>
-                        <select name="" id="">
+                        <label class="form-label">Country</label>
+                        <select>
                           <option value="iran">Iran</option>
                           <option value="canada">Canada</option>
                           <option value="germany">Germany</option>
@@ -547,8 +568,8 @@
                       </div>
 
                       <div class="address-modal__form-row3-region">
-                        <label>Region/State</label>
-                        <select name="" id="">
+                        <label  class="form-label">Region/State</label>
+                        <select>
                           <option value="1">1</option>
                           <option value="2">2</option>
                           <option value="3">3</option>
@@ -557,7 +578,8 @@
                       </div>
 
                       <div class="address-modal__form-row3-city">
-                        <select name="" id="">
+                        <label class="form-label">City</label>
+                        <select>
                           <option value="1">1</option>
                           <option value="2">2</option>
                           <option value="3">3</option>
@@ -566,23 +588,23 @@
                       </div>
 
                       <div class="address-modal__form-row3-zipcode">
-                        <label>Zip Code</label>
-                        <input type="text" placeholder="Zip Code">
+                        <label  class="form-label">Zip Code</label>
+                        <input type="text" placeholder="Zip Code" />
                       </div>
                     </div>
 
                     <div class="address-modal__form-row4">
                       <div class="address-modal__form-row4-email">
-                        <label>Email</label>
-                        <input type="email" placeholder="Email">
+                        <label class="form-label">Email</label>
+                        <input type="email" placeholder="Email" />
                       </div>
 
                       <div class="address-modal__form-row4-phone">
-                        <label>Phone Number</label>
-                        <input type="text" placeholder="Phone Number">
+                        <label class="form-label">Phone Number</label>
+                        <input type="text" placeholder="Phone Number" />
                       </div>
                     </div>
-                    
+
                     <button class="address-modal__form-btn">Save</button>
                   </form>
                 </div>
@@ -591,8 +613,6 @@
           </div>
         </div>
       </section>
-
-
     </main>
 
     <footer class="footer">
