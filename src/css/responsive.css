@@ -104,6 +104,19 @@
     display: block;
     margin: 0 auto;
   }
+
+  .about-us-text,.about-us__texts-title{
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+
+
+  .about-us-image{
+    width: 88%;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 /* *  ------------------------980px------------------------ */
@@ -597,6 +610,10 @@
   .new-arrival__right-top-image {
     width: 10rem;
   }
+  .about-us-text{
+    text-align: center;
+
+  }
 }
 
 /* *  ------------------------288px------------------------ */
@@ -607,5 +624,8 @@
 @media screen and (max-width: 240px) {
   .search-icons__input {
     width: 10rem;
+  }
+  .path-text{
+    font-size: 1rem;
   }
 }
