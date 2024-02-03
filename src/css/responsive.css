@@ -54,6 +54,51 @@
   .account-details-box-right__form-row4 {
     flex-direction: column;
   }
+
+  .main-info-image{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 1rem;
+  }
+
+  .main-info-text{
+    width: 70rem;
+    display: block;
+    margin: 0 auto;
+  }
+  .main-info-text-title{
+    text-align: center;
+    margin-top: 1rem;
+  }
+  .path-text{
+    margin-left: 2rem;
+  }
+  .main-info-title,.main-info-author{
+    display: block;
+    text-align: center;
+  }
+
+  .comment{
+    margin-right: 1.4rem;
+    margin-left: 1.4rem;
+  }
+
+  .comments-title{
+    margin-left: 1.4rem;
+  }
+
+  .write-comment-form{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    display: block;
+    margin: 0 auto;
+    width: 88%;
+  }
+  .write-comment-title{
+    margin-left: 1.4rem;
+  }
+
 }
 
 /* *  ------------------------1230px------------------------ */
@@ -168,6 +213,10 @@
   .aside-content__box-info {
     line-height: 1.2rem;
   }
+
+  .main-info-text{
+    width: 58rem;
+  }
 }
 
 /* *  ------------------------980px------------------------ */
@@ -200,7 +249,8 @@
 
 /* *  ------------------------945px------------------------ */
 @media screen and (max-width: 945px) {
-  .search-icons {
+  .main-info-text{
+    width: 50rem;
   }
 }
 
@@ -284,6 +334,9 @@
 
 /* *  ------------------------840px------------------------ */
 @media screen and (max-width: 840px) {
+  .main-info-text{
+    width: 48rem;
+  }
 }
 
 /* *  ------------------------805px------------------------ */
@@ -293,6 +346,9 @@
   }
   .card__right-info-subtitle {
     font-size: 1.2rem;
+  }
+  .main-info-text{
+    width: 38rem;
   }
 }
 
@@ -357,6 +413,9 @@
   }
   .new-arrival__left-image {
     width: 22rem;
+  }
+  .main-info-text{
+    width: 30rem;
   }
 }
 
@@ -529,6 +588,13 @@
     width: 100%;
     margin-bottom: 2rem;
   }
+  .main-info-text{
+    width: 26rem;
+  }
+
+  .main-info-like-comment{
+    margin-top: 2rem;
+  }
 }
 
 /* *  ------------------------450px------------------------ */
@@ -593,6 +659,13 @@
     font-size: 1.2rem;
   }
   .form-labe,.account-details-box-right__form-btn{
+    font-size: 1rem;
+  }
+  .main-info-text{
+    width: 22rem;
+  }
+
+  .write-comment-textarea::placeholder{
     font-size: 1rem;
   }
 }
@@ -677,11 +750,19 @@
   .contact__right-form-tag input {
     width: 12rem;
   }
+
+  .main-info-text{
+    width: 18rem;
+  }
 }
 /* *  ------------------------357px------------------------ */
 @media screen and (max-width: 357px) {
   .account-details-box-right__form input{
     width:14rem;
+  }
+
+  .main-info-like-comment{
+    flex-direction: column;
   }
 }
 
@@ -751,6 +832,9 @@
   .aside-content__box-link {
     left: 4rem;
   }
+  .main-info-text{
+    width: 14rem;
+  }
 }
 
 
@@ -767,6 +851,10 @@
   .account-details-box-right__form-country,.account-details-box-right__form-states{
     padding: 0.5rem 0.5rem;
   }
+  .path-text{
+    font-size: 1rem;
+  }
+
 }
 
 /* *  ------------------------240px------------------------ */
