@@ -41,7 +41,7 @@
 }
 
 .aside-menu {
-  width: 20%;
+  width: 20rem;
   background-color: var(--white);
   margin-left: 2rem;
   padding: 1rem;
@@ -89,16 +89,17 @@
 .account__wrapper{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   padding-bottom: 4rem;
 }
 
 .account-details {
-  width: 80%;
+  max-width: 80rem;
   margin-left: 8rem;
   background-color: var(--white);
   padding: 1rem;
   border-radius: 1rem;
+  margin-right: 2rem;
 }
 
 .account-details-title{
@@ -165,6 +166,7 @@ input:focus{
   border: 2px solid #E4E7E9;
   outline: none;
   margin-right: 1rem;
+  text-align: center;
 }
 
 .account-details-box-right__form-row4__pin input {
