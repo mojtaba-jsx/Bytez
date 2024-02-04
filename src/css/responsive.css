@@ -99,6 +99,20 @@
   .write-comment-title {
     margin-left: 1.4rem;
   }
+
+
+
+  .dashboard__wrapper{
+    flex-direction: column;
+  }
+
+  .dashboard-info{
+    width: 100%;
+  }
+  .dashboard-info__orders{
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
 }
 
 /* *  ------------------------1280px------------------------ */
@@ -380,6 +394,17 @@
   .main-info-text {
     width: 48rem;
   }
+
+  .dashboard-info__orders{
+    flex-direction: column;
+  }
+  .dashboard-info__orders-box{
+    width: 30rem;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 2rem;
+    justify-content: space-around;
+  }
 }
 
 /* *  ------------------------805px------------------------ */
@@ -465,6 +490,10 @@
   .expreience__left-timer {
     flex-wrap: wrap;
   }
+
+  .dashboard-info__orders-box{
+    width: 20rem;
+  }
 }
 
 /* *  ------------------------635px------------------------ */
@@ -481,6 +510,31 @@
   }
   .main-info-text {
     width: 30rem;
+  }
+
+  .dashboard-info-boxes{
+    flex-direction: column;
+  }
+  .dashboard-info-boxes__account,.dashboard-info-boxes__address{
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  .dashboard-info__user-name,.dashboard-info__user-text{
+    text-align: center;
+  }
+  .dashboard-info-boxes__account,.dashboard-info-boxes__address{
+    width: 30rem;
+  }
+  .dashboard-info-boxes__account-more-info-phone,.dashboard-info-boxes__account-more-info-email,.dashboard-info-boxes__address-infos{
+    text-align: center;
+  }
+  .dashboard-info-boxes__account-profile{
+    margin: 0 auto;
+    margin-top: 1rem;
+  }
+  .dashboard-info-boxes__account-more-info-edit,.dashboard-info-boxes__address-infos-change{
+    margin: 0 auto;
+    margin-top: 2rem;
   }
 }
 
@@ -548,6 +602,11 @@
   .footer-top__col6 {
     width: 100%;
     text-align: center;
+  }
+
+
+  .dashboard-info-boxes__account,.dashboard-info-boxes__address{
+    width: 24rem;
   }
 }
 
@@ -668,6 +727,11 @@
   .main-info-like-comment {
     margin-top: 2rem;
   }
+
+  .dashboard-info__orders-box{
+    width: 14rem;
+  }
+
 }
 
 /* *  ------------------------450px------------------------ */
@@ -700,6 +764,10 @@
 
   .aside-content__box {
     margin-left: 1rem;
+  }
+
+  .dashboard-info-boxes__account,.dashboard-info-boxes__address{
+    width: 18rem;
   }
 }
 
@@ -782,6 +850,10 @@
   }
   .header {
     height: 16rem;
+  }
+
+  .dashboard-info__orders-box{
+    width: 10rem;
   }
 }
 
@@ -874,6 +946,22 @@
 
   .main-info-like-comment {
     flex-direction: column;
+  }
+
+  .dashboard-info-boxes__account,.dashboard-info-boxes__address{
+    width: 14rem;
+  }
+  .dashboard-info-boxes__account-more-info-edit,.dashboard-info-boxes__address-infos-change{
+    width: 8rem;
+    font-size: 0.8rem;
+  }
+
+  .dashboard-info__orders-box{
+    width: 8rem;
+  }
+
+  .path-text{
+    font-size: 1rem;
   }
 }
 
