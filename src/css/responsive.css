@@ -111,6 +111,19 @@
     margin-right: 2rem;
     margin-left: 2rem;
   }
+
+
+  .address__wrapper{
+    flex-direction: column;
+  }
+  .shipping-address{
+    margin: 0 auto;
+  }
+
+  .shipping-address-btn{
+    margin: 0 auto;
+  }
+
 }
 
 /* *  ------------------------1280px------------------------ */
@@ -1032,6 +1045,17 @@
   }
   .cart__box-right--info {
     width: 10rem;
+  }
+
+  .shipping-address__box__bottom-name,.shipping-address__box__bottom-address{
+    font-size: 1rem;
+  }
+
+  .shipping-address__box-top{
+    flex-direction: column;
+  }
+  .shipping-address__box-top-btns{
+    margin: 0 auto;
   }
 }
 
