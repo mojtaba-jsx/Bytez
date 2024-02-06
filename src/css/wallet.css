@@ -175,6 +175,16 @@ th {
   font-family: "inter-regular", Courier, monospace;
 }
 
+.table__wrapper::-webkit-scrollbar{
+  background-color: var(--black);
+  border-radius: 1rem;
+}
+
+.table__wrapper::-webkit-scrollbar-thumb{
+  background-color: gray;
+  border-radius: 1rem;
+}
+
 .table th,
 .table td {
   padding: 17px;

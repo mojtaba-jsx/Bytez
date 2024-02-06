@@ -157,6 +157,19 @@
     margin: 0 auto;
     width: 80%;
   }
+
+
+  .wallet__wrapper{
+    flex-direction: column;
+  }
+
+  .aside-menu__list{
+    margin: 0 auto;
+  }
+
+  .wallet-box{
+    margin: 0 auto;
+  }
 }
 
 /* *  ------------------------1280px------------------------ */
@@ -464,6 +477,17 @@
   .aside-content__wrapper {
     margin-right: 2rem;
   }
+
+  .table__wrapper{
+    overflow-x: auto;
+  }
+
+  .table tr th {
+    font-size: 1rem;
+  }
+  .table tr td {
+    font-size: 1rem;
+  }
 }
 
 /* *  ------------------------910px------------------------ */
@@ -640,6 +664,10 @@
     margin: 0 auto;
     margin-top: 1rem;
   }
+
+  .aside-menu-wallet{
+    height: 20rem;
+  }
 }
 
 /* *  ------------------------740px------------------------ */
@@ -716,6 +744,10 @@
   .aside-menu__button{
     padding: 1 5rem;
   }
+
+  .aside-menu-wallet{
+    height: 20rem;
+  }
 }
 
 /* *  ------------------------660px------------------------ */
@@ -784,6 +816,10 @@
 
   .aside-menu{
     height: 65rem;
+  }
+
+  .aside-menu-wallet{
+    height: 20rem;
   }
 
 }
@@ -886,6 +922,15 @@
   .tab button {
     padding-left: 12rem;
   }
+
+
+  .wallet-box__top{
+    flex-direction: column;
+  }
+  .wallet-box__top-left,.wallet-box__top-right{
+    margin-bottom: 2rem;
+  }
+
 }
 
 /* *  ------------------------560px------------------------ */
@@ -1252,6 +1297,15 @@
 
   .dashboard-info__orders-box {
     width: 10rem;
+  }
+
+
+
+  .wallet-box__top-left-balance-number{
+    font-size: 1.4rem;
+  }
+  .wallet-box__top-left-balance-text{
+    font-size: 1rem;
   }
 }
 
