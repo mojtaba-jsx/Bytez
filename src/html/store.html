@@ -4,19 +4,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/header.css" />
     <link rel="stylesheet" href="../css/store.css" />
-    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/mobile-menu.css" />
     <link rel="stylesheet" href="../css/responsive.css" />
     <title>Store</title>
   </head>
   <body>
+    <!--! -----------------------------Header Section----------------------------- -->
     <header class="header">
       <div class="container">
         <div class="header__wrapper">
           <div class="header__logo">
             <img src="../../assets/images/bytes-logo.png" alt="logo" />
           </div>
-          <!-- //! -->
+          <!-- *----------------Header NavBar---------------- -->
           <div class="header__navbar">
             <ul class="navbar__list">
               <li class="navbar__list-item">
@@ -33,7 +34,8 @@
               </li>
             </ul>
           </div>
-          <!-- //! -->
+
+          <!-- *----------------Search Icons ---------------- -->
           <div class="search-icons">
             <span class="search-icons__searchbox">
               <input
@@ -63,20 +65,20 @@
             <span class="search-icons__basket">
               <a href="./cart.html" class="search-icons__basket-link">
                 <svg
-                class="search-icons__basket-svg"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
-                />
-              </svg>
+                  class="search-icons__basket-svg"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                  />
+                </svg>
               </a>
             </span>
 
@@ -156,8 +158,7 @@
         </div>
       </div>
 
-      <!-- //! -->
-
+      <!-- *----------------Mobile Menu Section---------------- -->
       <section class="mobile-menu">
         <div class="mobile-menu__wrapper">
           <ul class="mobile-menu__list">
@@ -184,16 +185,20 @@
       </section>
     </header>
 
+    <!--! -----------------------------Main Section----------------------------- -->
     <main class="main">
+      <!-- *----------------Path Section---------------- -->
       <section class="path">
         <div class="container">
           <span class="path-text"> HOME/STORE </span>
         </div>
       </section>
 
+      <!-- *----------------Products Section---------------- -->
       <section class="products">
         <div class="container">
           <div class="products__wrapper">
+            <!-- &----------------Aside Menu Section---------------- -->
             <aside class="aside-menu">
               <div class="aside-menu__wrapper">
                 <span class="aside-menu-title"> Filter By </span>
@@ -298,7 +303,7 @@
                 <button class="aside-menu__button">Filter</button>
               </div>
             </aside>
-
+            <!-- &----------------Products Box Section---------------- -->
             <section class="products-box">
               <section class="products-header">
                 <div class="products-header__wrapper">
@@ -367,7 +372,6 @@
 
               <section class="products-list">
                 <div class="products-list__wrapper">
-
                   <div class="product-box">
                     <img
                       src="../../assets/images/iphone12.png"
@@ -393,7 +397,9 @@
                     </div>
 
                     <div class="product-box__info">
-                      <span class="product-box__info-name">Iphone 14 Pro Max</span>
+                      <span class="product-box__info-name"
+                        >Iphone 14 Pro Max</span
+                      >
                       <span class="product-box__info-rating">
                         4.2
                         <svg
@@ -416,13 +422,49 @@
                     <div class="product-box__price">
                       <span class="product-box__price-btn">
                         <a href="#" class="product-box__price-btn-link">
-                          <svg width="45" height="31" viewBox="0 0 45 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6 2L2 7.33333V26C2 26.7072 2.28095 27.3855 2.78105 27.8856C3.28115 28.3857 3.95942 28.6667 4.66667 28.6667H23.3333C24.0406 28.6667 24.7189 28.3857 25.219 27.8856C25.719 27.3855 26 26.7072 26 26V7.33333L22 2H6Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M2 7.33337H26" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M19.3333 12.6666C19.3333 14.0811 18.7714 15.4377 17.7712 16.4379C16.771 17.4381 15.4145 18 14 18C12.5855 18 11.2289 17.4381 10.2288 16.4379C9.22856 15.4377 8.66666 14.0811 8.66666 12.6666" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M38 10.6667V20.0001" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M33.3333 15.3334H42.6667" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
+                          <svg
+                            width="45"
+                            height="31"
+                            viewBox="0 0 45 31"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M6 2L2 7.33333V26C2 26.7072 2.28095 27.3855 2.78105 27.8856C3.28115 28.3857 3.95942 28.6667 4.66667 28.6667H23.3333C24.0406 28.6667 24.7189 28.3857 25.219 27.8856C25.719 27.3855 26 26.7072 26 26V7.33333L22 2H6Z"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M2 7.33337H26"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M19.3333 12.6666C19.3333 14.0811 18.7714 15.4377 17.7712 16.4379C16.771 17.4381 15.4145 18 14 18C12.5855 18 11.2289 17.4381 10.2288 16.4379C9.22856 15.4377 8.66666 14.0811 8.66666 12.6666"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M38 10.6667V20.0001"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M33.3333 15.3334H42.6667"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
                         </a>
                       </span>
 
@@ -457,7 +499,9 @@
                     </div>
 
                     <div class="product-box__info">
-                      <span class="product-box__info-name">Iphone 14 Pro Max</span>
+                      <span class="product-box__info-name"
+                        >Iphone 14 Pro Max</span
+                      >
                       <span class="product-box__info-rating">
                         4.2
                         <svg
@@ -480,143 +524,49 @@
                     <div class="product-box__price">
                       <span class="product-box__price-btn">
                         <a href="#" class="product-box__price-btn-link">
-                          <svg width="45" height="31" viewBox="0 0 45 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6 2L2 7.33333V26C2 26.7072 2.28095 27.3855 2.78105 27.8856C3.28115 28.3857 3.95942 28.6667 4.66667 28.6667H23.3333C24.0406 28.6667 24.7189 28.3857 25.219 27.8856C25.719 27.3855 26 26.7072 26 26V7.33333L22 2H6Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M2 7.33337H26" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M19.3333 12.6666C19.3333 14.0811 18.7714 15.4377 17.7712 16.4379C16.771 17.4381 15.4145 18 14 18C12.5855 18 11.2289 17.4381 10.2288 16.4379C9.22856 15.4377 8.66666 14.0811 8.66666 12.6666" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M38 10.6667V20.0001" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M33.3333 15.3334H42.6667" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
-                      </span>
-
-                      <div class="product-box__price-price-disprice">
-                        <span class="product-box__price-orgprice">1000$</span>
-                        <span class="product-box__price-disprice">900$</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="product-box">
-                    <img
-                      src="../../assets/images/iphone12.png"
-                      alt=""
-                      class="product-box-image"
-                    />
-                    <div class="product-box-discount">
-                      <span class="product-box-discount-icon">
-                        <svg
-                          width="55"
-                          height="55"
-                          viewBox="0 0 86 86"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M76.7328 0H56.8331C52.4646 0 46.6225 2.4198 43.5341 5.50885L2.70587 46.3364C0.960572 48.0811 0 50.4077 0 52.8885C0 55.3693 0.961228 57.696 2.70587 59.4406L26.5587 83.2941C28.3034 85.0388 30.6307 86 33.1108 86C35.5917 86 37.9183 85.0388 39.6636 83.2941L80.4911 42.4659C83.5802 39.3775 86 33.5354 86 29.1669V9.26584C85.9993 4.15657 81.8421 0 76.7328 0ZM71.9031 17.8047C71.434 18.2732 70.7844 18.5422 70.121 18.5422C69.457 18.5422 68.8088 18.2732 68.3403 17.8047C67.8699 17.3362 67.6015 16.6866 67.6015 16.0226C67.6015 15.3593 67.8699 14.711 68.3403 14.2419C68.8088 13.7734 69.457 13.5051 70.121 13.5051C70.7844 13.5051 71.434 13.7734 71.9031 14.2419C72.3716 14.711 72.6406 15.3593 72.6406 16.0226C72.6406 16.6866 72.3716 17.3362 71.9031 17.8047Z"
-                            fill="#65B741"
-                          />
-                        </svg>
-                      </span>
-                      <span class="product-box-discount-text">10%</span>
-                    </div>
-
-                    <div class="product-box__info">
-                      <span class="product-box__info-name">Iphone 14 Pro Max</span>
-                      <span class="product-box__info-rating">
-                        4.2
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1.5"
-                          stroke="currentColor"
-                          class="w-6 h-6"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                          />
-                        </svg>
-                      </span>
-                    </div>
-
-                    <div class="product-box__price">
-                      <span class="product-box__price-btn">
-                        <a href="#" class="product-box__price-btn-link">
-                          <svg width="45" height="31" viewBox="0 0 45 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6 2L2 7.33333V26C2 26.7072 2.28095 27.3855 2.78105 27.8856C3.28115 28.3857 3.95942 28.6667 4.66667 28.6667H23.3333C24.0406 28.6667 24.7189 28.3857 25.219 27.8856C25.719 27.3855 26 26.7072 26 26V7.33333L22 2H6Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M2 7.33337H26" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M19.3333 12.6666C19.3333 14.0811 18.7714 15.4377 17.7712 16.4379C16.771 17.4381 15.4145 18 14 18C12.5855 18 11.2289 17.4381 10.2288 16.4379C9.22856 15.4377 8.66666 14.0811 8.66666 12.6666" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M38 10.6667V20.0001" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M33.3333 15.3334H42.6667" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
-                      </span>
-
-                      <div class="product-box__price-price-disprice">
-                        <span class="product-box__price-orgprice">1000$</span>
-                        <span class="product-box__price-disprice">900$</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="product-box">
-                    <img
-                      src="../../assets/images/iphone12.png"
-                      alt=""
-                      class="product-box-image"
-                    />
-                    <div class="product-box-discount">
-                      <span class="product-box-discount-icon">
-                        <svg
-                          width="55"
-                          height="55"
-                          viewBox="0 0 86 86"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M76.7328 0H56.8331C52.4646 0 46.6225 2.4198 43.5341 5.50885L2.70587 46.3364C0.960572 48.0811 0 50.4077 0 52.8885C0 55.3693 0.961228 57.696 2.70587 59.4406L26.5587 83.2941C28.3034 85.0388 30.6307 86 33.1108 86C35.5917 86 37.9183 85.0388 39.6636 83.2941L80.4911 42.4659C83.5802 39.3775 86 33.5354 86 29.1669V9.26584C85.9993 4.15657 81.8421 0 76.7328 0ZM71.9031 17.8047C71.434 18.2732 70.7844 18.5422 70.121 18.5422C69.457 18.5422 68.8088 18.2732 68.3403 17.8047C67.8699 17.3362 67.6015 16.6866 67.6015 16.0226C67.6015 15.3593 67.8699 14.711 68.3403 14.2419C68.8088 13.7734 69.457 13.5051 70.121 13.5051C70.7844 13.5051 71.434 13.7734 71.9031 14.2419C72.3716 14.711 72.6406 15.3593 72.6406 16.0226C72.6406 16.6866 72.3716 17.3362 71.9031 17.8047Z"
-                            fill="#65B741"
-                          />
-                        </svg>
-                      </span>
-                      <span class="product-box-discount-text">10%</span>
-                    </div>
-
-                    <div class="product-box__info">
-                      <span class="product-box__info-name">Iphone 14 Pro Max</span>
-                      <span class="product-box__info-rating">
-                        4.2
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke-width="1.5"
-                          stroke="currentColor"
-                          class="w-6 h-6"
-                        >
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
-                          />
-                        </svg>
-                      </span>
-                    </div>
-
-                    <div class="product-box__price">
-                      <span class="product-box__price-btn">
-                        <a href="#" class="product-box__price-btn-link">
-                          <svg width="45" height="31" viewBox="0 0 45 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6 2L2 7.33333V26C2 26.7072 2.28095 27.3855 2.78105 27.8856C3.28115 28.3857 3.95942 28.6667 4.66667 28.6667H23.3333C24.0406 28.6667 24.7189 28.3857 25.219 27.8856C25.719 27.3855 26 26.7072 26 26V7.33333L22 2H6Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M2 7.33337H26" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M19.3333 12.6666C19.3333 14.0811 18.7714 15.4377 17.7712 16.4379C16.771 17.4381 15.4145 18 14 18C12.5855 18 11.2289 17.4381 10.2288 16.4379C9.22856 15.4377 8.66666 14.0811 8.66666 12.6666" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M38 10.6667V20.0001" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M33.3333 15.3334H42.6667" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
+                          <svg
+                            width="45"
+                            height="31"
+                            viewBox="0 0 45 31"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M6 2L2 7.33333V26C2 26.7072 2.28095 27.3855 2.78105 27.8856C3.28115 28.3857 3.95942 28.6667 4.66667 28.6667H23.3333C24.0406 28.6667 24.7189 28.3857 25.219 27.8856C25.719 27.3855 26 26.7072 26 26V7.33333L22 2H6Z"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M2 7.33337H26"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M19.3333 12.6666C19.3333 14.0811 18.7714 15.4377 17.7712 16.4379C16.771 17.4381 15.4145 18 14 18C12.5855 18 11.2289 17.4381 10.2288 16.4379C9.22856 15.4377 8.66666 14.0811 8.66666 12.6666"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M38 10.6667V20.0001"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M33.3333 15.3334H42.6667"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
                         </a>
                       </span>
 
@@ -652,7 +602,9 @@
                     </div>
 
                     <div class="product-box__info">
-                      <span class="product-box__info-name">Iphone 14 Pro Max</span>
+                      <span class="product-box__info-name"
+                        >Iphone 14 Pro Max</span
+                      >
                       <span class="product-box__info-rating">
                         4.2
                         <svg
@@ -675,13 +627,49 @@
                     <div class="product-box__price">
                       <span class="product-box__price-btn">
                         <a href="#" class="product-box__price-btn-link">
-                          <svg width="45" height="31" viewBox="0 0 45 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6 2L2 7.33333V26C2 26.7072 2.28095 27.3855 2.78105 27.8856C3.28115 28.3857 3.95942 28.6667 4.66667 28.6667H23.3333C24.0406 28.6667 24.7189 28.3857 25.219 27.8856C25.719 27.3855 26 26.7072 26 26V7.33333L22 2H6Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M2 7.33337H26" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M19.3333 12.6666C19.3333 14.0811 18.7714 15.4377 17.7712 16.4379C16.771 17.4381 15.4145 18 14 18C12.5855 18 11.2289 17.4381 10.2288 16.4379C9.22856 15.4377 8.66666 14.0811 8.66666 12.6666" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M38 10.6667V20.0001" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M33.3333 15.3334H42.6667" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
+                          <svg
+                            width="45"
+                            height="31"
+                            viewBox="0 0 45 31"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M6 2L2 7.33333V26C2 26.7072 2.28095 27.3855 2.78105 27.8856C3.28115 28.3857 3.95942 28.6667 4.66667 28.6667H23.3333C24.0406 28.6667 24.7189 28.3857 25.219 27.8856C25.719 27.3855 26 26.7072 26 26V7.33333L22 2H6Z"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M2 7.33337H26"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M19.3333 12.6666C19.3333 14.0811 18.7714 15.4377 17.7712 16.4379C16.771 17.4381 15.4145 18 14 18C12.5855 18 11.2289 17.4381 10.2288 16.4379C9.22856 15.4377 8.66666 14.0811 8.66666 12.6666"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M38 10.6667V20.0001"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M33.3333 15.3334H42.6667"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
                         </a>
                       </span>
 
@@ -717,7 +705,9 @@
                     </div>
 
                     <div class="product-box__info">
-                      <span class="product-box__info-name">Iphone 14 Pro Max</span>
+                      <span class="product-box__info-name"
+                        >Iphone 14 Pro Max</span
+                      >
                       <span class="product-box__info-rating">
                         4.2
                         <svg
@@ -740,13 +730,49 @@
                     <div class="product-box__price">
                       <span class="product-box__price-btn">
                         <a href="#" class="product-box__price-btn-link">
-                          <svg width="45" height="31" viewBox="0 0 45 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M6 2L2 7.33333V26C2 26.7072 2.28095 27.3855 2.78105 27.8856C3.28115 28.3857 3.95942 28.6667 4.66667 28.6667H23.3333C24.0406 28.6667 24.7189 28.3857 25.219 27.8856C25.719 27.3855 26 26.7072 26 26V7.33333L22 2H6Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M2 7.33337H26" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M19.3333 12.6666C19.3333 14.0811 18.7714 15.4377 17.7712 16.4379C16.771 17.4381 15.4145 18 14 18C12.5855 18 11.2289 17.4381 10.2288 16.4379C9.22856 15.4377 8.66666 14.0811 8.66666 12.6666" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M38 10.6667V20.0001" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path d="M33.3333 15.3334H42.6667" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
+                          <svg
+                            width="45"
+                            height="31"
+                            viewBox="0 0 45 31"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M6 2L2 7.33333V26C2 26.7072 2.28095 27.3855 2.78105 27.8856C3.28115 28.3857 3.95942 28.6667 4.66667 28.6667H23.3333C24.0406 28.6667 24.7189 28.3857 25.219 27.8856C25.719 27.3855 26 26.7072 26 26V7.33333L22 2H6Z"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M2 7.33337H26"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M19.3333 12.6666C19.3333 14.0811 18.7714 15.4377 17.7712 16.4379C16.771 17.4381 15.4145 18 14 18C12.5855 18 11.2289 17.4381 10.2288 16.4379C9.22856 15.4377 8.66666 14.0811 8.66666 12.6666"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M38 10.6667V20.0001"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M33.3333 15.3334H42.6667"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
                         </a>
                       </span>
 
@@ -757,6 +783,211 @@
                     </div>
                   </div>
 
+                  <div class="product-box">
+                    <img
+                      src="../../assets/images/iphone12.png"
+                      alt=""
+                      class="product-box-image"
+                    />
+                    <div class="product-box-discount">
+                      <span class="product-box-discount-icon">
+                        <svg
+                          width="55"
+                          height="55"
+                          viewBox="0 0 86 86"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M76.7328 0H56.8331C52.4646 0 46.6225 2.4198 43.5341 5.50885L2.70587 46.3364C0.960572 48.0811 0 50.4077 0 52.8885C0 55.3693 0.961228 57.696 2.70587 59.4406L26.5587 83.2941C28.3034 85.0388 30.6307 86 33.1108 86C35.5917 86 37.9183 85.0388 39.6636 83.2941L80.4911 42.4659C83.5802 39.3775 86 33.5354 86 29.1669V9.26584C85.9993 4.15657 81.8421 0 76.7328 0ZM71.9031 17.8047C71.434 18.2732 70.7844 18.5422 70.121 18.5422C69.457 18.5422 68.8088 18.2732 68.3403 17.8047C67.8699 17.3362 67.6015 16.6866 67.6015 16.0226C67.6015 15.3593 67.8699 14.711 68.3403 14.2419C68.8088 13.7734 69.457 13.5051 70.121 13.5051C70.7844 13.5051 71.434 13.7734 71.9031 14.2419C72.3716 14.711 72.6406 15.3593 72.6406 16.0226C72.6406 16.6866 72.3716 17.3362 71.9031 17.8047Z"
+                            fill="#65B741"
+                          />
+                        </svg>
+                      </span>
+                      <span class="product-box-discount-text">10%</span>
+                    </div>
+
+                    <div class="product-box__info">
+                      <span class="product-box__info-name"
+                        >Iphone 14 Pro Max</span
+                      >
+                      <span class="product-box__info-rating">
+                        4.2
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="w-6 h-6"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+
+                    <div class="product-box__price">
+                      <span class="product-box__price-btn">
+                        <a href="#" class="product-box__price-btn-link">
+                          <svg
+                            width="45"
+                            height="31"
+                            viewBox="0 0 45 31"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M6 2L2 7.33333V26C2 26.7072 2.28095 27.3855 2.78105 27.8856C3.28115 28.3857 3.95942 28.6667 4.66667 28.6667H23.3333C24.0406 28.6667 24.7189 28.3857 25.219 27.8856C25.719 27.3855 26 26.7072 26 26V7.33333L22 2H6Z"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M2 7.33337H26"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M19.3333 12.6666C19.3333 14.0811 18.7714 15.4377 17.7712 16.4379C16.771 17.4381 15.4145 18 14 18C12.5855 18 11.2289 17.4381 10.2288 16.4379C9.22856 15.4377 8.66666 14.0811 8.66666 12.6666"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M38 10.6667V20.0001"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M33.3333 15.3334H42.6667"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </a>
+                      </span>
+
+                      <div class="product-box__price-price-disprice">
+                        <span class="product-box__price-orgprice">1000$</span>
+                        <span class="product-box__price-disprice">900$</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="product-box">
+                    <img
+                      src="../../assets/images/iphone12.png"
+                      alt=""
+                      class="product-box-image"
+                    />
+                    <div class="product-box-discount">
+                      <span class="product-box-discount-icon">
+                        <svg
+                          width="55"
+                          height="55"
+                          viewBox="0 0 86 86"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M76.7328 0H56.8331C52.4646 0 46.6225 2.4198 43.5341 5.50885L2.70587 46.3364C0.960572 48.0811 0 50.4077 0 52.8885C0 55.3693 0.961228 57.696 2.70587 59.4406L26.5587 83.2941C28.3034 85.0388 30.6307 86 33.1108 86C35.5917 86 37.9183 85.0388 39.6636 83.2941L80.4911 42.4659C83.5802 39.3775 86 33.5354 86 29.1669V9.26584C85.9993 4.15657 81.8421 0 76.7328 0ZM71.9031 17.8047C71.434 18.2732 70.7844 18.5422 70.121 18.5422C69.457 18.5422 68.8088 18.2732 68.3403 17.8047C67.8699 17.3362 67.6015 16.6866 67.6015 16.0226C67.6015 15.3593 67.8699 14.711 68.3403 14.2419C68.8088 13.7734 69.457 13.5051 70.121 13.5051C70.7844 13.5051 71.434 13.7734 71.9031 14.2419C72.3716 14.711 72.6406 15.3593 72.6406 16.0226C72.6406 16.6866 72.3716 17.3362 71.9031 17.8047Z"
+                            fill="#65B741"
+                          />
+                        </svg>
+                      </span>
+                      <span class="product-box-discount-text">10%</span>
+                    </div>
+
+                    <div class="product-box__info">
+                      <span class="product-box__info-name"
+                        >Iphone 14 Pro Max</span
+                      >
+                      <span class="product-box__info-rating">
+                        4.2
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="currentColor"
+                          class="w-6 h-6"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+
+                    <div class="product-box__price">
+                      <span class="product-box__price-btn">
+                        <a href="#" class="product-box__price-btn-link">
+                          <svg
+                            width="45"
+                            height="31"
+                            viewBox="0 0 45 31"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M6 2L2 7.33333V26C2 26.7072 2.28095 27.3855 2.78105 27.8856C3.28115 28.3857 3.95942 28.6667 4.66667 28.6667H23.3333C24.0406 28.6667 24.7189 28.3857 25.219 27.8856C25.719 27.3855 26 26.7072 26 26V7.33333L22 2H6Z"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M2 7.33337H26"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M19.3333 12.6666C19.3333 14.0811 18.7714 15.4377 17.7712 16.4379C16.771 17.4381 15.4145 18 14 18C12.5855 18 11.2289 17.4381 10.2288 16.4379C9.22856 15.4377 8.66666 14.0811 8.66666 12.6666"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M38 10.6667V20.0001"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                            <path
+                              d="M33.3333 15.3334H42.6667"
+                              stroke="white"
+                              stroke-width="2.5"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </a>
+                      </span>
+
+                      <div class="product-box__price-price-disprice">
+                        <span class="product-box__price-orgprice">1000$</span>
+                        <span class="product-box__price-disprice">900$</span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </section>
             </section>
@@ -765,123 +996,109 @@
       </section>
     </main>
 
-
+    <!--! -----------------------------Footer Section----------------------------- -->
     <footer class="footer">
+      <!-- *----------------Footer Top Section---------------- -->
       <section class="footer-top">
-          <div class="container">
-              <div class="footer-top__wrapper">
-                  <div class="footer-top__col1">
-                      <span class="footer-top__col1-title">Quick Links</span>
-                      <ul class="footer-top__col1-list">
-                          <li class="footer-top__col1-item">
-                              <a href="#" class="footer-top__col1-link">
-                                  Home
-                              </a>
-                          </li>
-                          <li class="footer-top__col1-item">
-                              <a href="#" class="footer-top__col1-link">
-                                  About Us
-                              </a>
-                          </li>
-                          <li class="footer-top__col1-item">
-                              <a href="#" class="footer-top__col1-link">
-                                  Contact Us
-                              </a>
-                          </li>
-                          <li class="footer-top__col1-item">
-                              <a href="#" class="footer-top__col1-link">
-                                  FAQ
-                              </a>
-                          </li>
-                      </ul>
-                  </div>
+        <div class="container">
+          <div class="footer-top__wrapper">
+            <div class="footer-top__col1">
+              <span class="footer-top__col1-title">Quick Links</span>
+              <ul class="footer-top__col1-list">
+                <li class="footer-top__col1-item">
+                  <a href="#" class="footer-top__col1-link"> Home </a>
+                </li>
+                <li class="footer-top__col1-item">
+                  <a href="#" class="footer-top__col1-link"> About Us </a>
+                </li>
+                <li class="footer-top__col1-item">
+                  <a href="#" class="footer-top__col1-link"> Contact Us </a>
+                </li>
+                <li class="footer-top__col1-item">
+                  <a href="#" class="footer-top__col1-link"> FAQ </a>
+                </li>
+              </ul>
+            </div>
 
-                  <div class="footer-top__col2">
-                      <span class="footer-top__col2-title">Important Policies</span>
-                      <ul class="footer-top__col2-list">
-                          <li class="footer-top__col2-item">
-                              <a href="#" class="footer-top__col2-link">
-                                  Privacy Policy
-                              </a>
-                          </li>
-                          <li class="footer-top__col2-item">
-                              <a href="#" class="footer-top__col2-link">
-                                  terms Of Service
-                              </a>
-                          </li>
-                          <li class="footer-top__col2-item">
-                              <a href="#" class="footer-top__col2-link">
-                                  Return & Refunds
-                              </a>
-                          </li>
-                          <li class="footer-top__col2-item">
-                              <a href="#" class="footer-top__col2-link">
-                                  Shopping Policy
-                              </a>
-                          </li>
-                      </ul>
-                  </div>
+            <div class="footer-top__col2">
+              <span class="footer-top__col2-title">Important Policies</span>
+              <ul class="footer-top__col2-list">
+                <li class="footer-top__col2-item">
+                  <a href="#" class="footer-top__col2-link"> Privacy Policy </a>
+                </li>
+                <li class="footer-top__col2-item">
+                  <a href="#" class="footer-top__col2-link">
+                    terms Of Service
+                  </a>
+                </li>
+                <li class="footer-top__col2-item">
+                  <a href="#" class="footer-top__col2-link">
+                    Return & Refunds
+                  </a>
+                </li>
+                <li class="footer-top__col2-item">
+                  <a href="#" class="footer-top__col2-link">
+                    Shopping Policy
+                  </a>
+                </li>
+              </ul>
+            </div>
 
-                  <div class="footer-top__col3">
-                      <span class="footer-top__col3-title">Lets Help You </span>
-                      <ul class="footer-top__col3-list">
-                          <li class="footer-top__col3-item">
-                              <a href="#" class="footer-top__col3-link">
-                                  Customer Support
-                              </a>
-                          </li>
-                          <li class="footer-top__col3-item">
-                              <a href="#" class="footer-top__col3-link">
-                                  Live Chat
-                              </a>
-                          </li>
-                          <li class="footer-top__col3-item">
-                              <a href="#" class="footer-top__col3-link">
-                                  Help Center
-                              </a>
-                          </li>
-                      </ul>
-                  </div>
+            <div class="footer-top__col3">
+              <span class="footer-top__col3-title">Lets Help You </span>
+              <ul class="footer-top__col3-list">
+                <li class="footer-top__col3-item">
+                  <a href="#" class="footer-top__col3-link">
+                    Customer Support
+                  </a>
+                </li>
+                <li class="footer-top__col3-item">
+                  <a href="#" class="footer-top__col3-link"> Live Chat </a>
+                </li>
+                <li class="footer-top__col3-item">
+                  <a href="#" class="footer-top__col3-link"> Help Center </a>
+                </li>
+              </ul>
+            </div>
 
-                  <div class="footer-top__col4">
-                      <span class="footer-top__col4-title">Contact With Us</span>
-                      <ul class="footer-top__col4-list">
-                          <li class="footer-top__col4-item">
-                              <a href="#" class="footer-top__col4-link">
-                                  Facebook
-                              </a>
-                          </li>
-                          <li class="footer-top__col4-item">
-                              <a href="#" class="footer-top__col4-link">
-                                  Twitter
-                              </a>
-                          </li>
-                          <li class="footer-top__col4-item">
-                              <a href="#" class="footer-top__col4-link">
-                                  Instagram
-                              </a>
-                          </li>
-                      </ul>
-                  </div>
+            <div class="footer-top__col4">
+              <span class="footer-top__col4-title">Contact With Us</span>
+              <ul class="footer-top__col4-list">
+                <li class="footer-top__col4-item">
+                  <a href="#" class="footer-top__col4-link"> Facebook </a>
+                </li>
+                <li class="footer-top__col4-item">
+                  <a href="#" class="footer-top__col4-link"> Twitter </a>
+                </li>
+                <li class="footer-top__col4-item">
+                  <a href="#" class="footer-top__col4-link"> Instagram </a>
+                </li>
+              </ul>
+            </div>
 
-                  <div class="footer-top__col5">
-                      <span class="footer-top__col5-title">Subscribe for updates and exclusive offers</span>
-                          <input class="footer-top__col5-input" type="text" placeholder="Enter Your Email">
-                  </div>
-                  
-                  <div class="footer-top__col6">
-                      <a href="#" class="footer-top__col6-link">subscribe</a>
-                  </div>
-              </div>
+            <div class="footer-top__col5">
+              <span class="footer-top__col5-title"
+                >Subscribe for updates and exclusive offers</span
+              >
+              <input
+                class="footer-top__col5-input"
+                type="text"
+                placeholder="Enter Your Email"
+              />
+            </div>
+
+            <div class="footer-top__col6">
+              <a href="#" class="footer-top__col6-link">subscribe</a>
+            </div>
           </div>
+        </div>
       </section>
 
+      <!-- *----------------Footer Bottom Section---------------- -->
       <section class="footer-bottom">
-          <span class="footer-bottom-text">
-              2023 Bytez All Rights Reserved
-          </span>
+        <span class="footer-bottom-text"> 2023 Bytez All Rights Reserved </span>
       </section>
-  </footer>
+    </footer>
 
     <script src="../js/shared.js"></script>
   </body>
