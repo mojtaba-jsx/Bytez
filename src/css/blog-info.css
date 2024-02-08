@@ -1,23 +1,22 @@
-/*! Css Imports */
+/*! ====================================Css Imports==================================== */
 @import "./reset.css";
 @import "./fonts.css";
 @import "./footer.css";
 
-/*! Css Variables */
+/*! ====================================Css Variables==================================== */
 :root {
   --white: #ffff;
   --black: black;
   --gray: #3f3f3f;
 }
 
-/*! Container Size */
+/*! ====================================Container Size ====================================*/
 .container {
   max-width: 1400px;
   margin: 0 auto;
 }
 
-/** Path Section Styles */
-
+/** ====================================Path Section Styles ====================================*/
 .path-text {
   font-size: 1.4rem;
   font-family: "inter-bold", Courier, monospace;
@@ -26,7 +25,7 @@
   margin-bottom: 2rem;
 }
 
-/** Main Info Section Styles */
+/** ==================================Main Info Section Styles ==================================*/
 .main {
   background-color: #eff7fa;
   padding-bottom: 4rem;
@@ -109,7 +108,7 @@
   width: 100%;
 }
 
-/** Comments Section Styles */
+/** ==================================Comments Section Styles ==================================*/
 
 .comments__wrapper {
   display: flex;
@@ -209,7 +208,7 @@
   margin-left: 1rem;
 }
 
-/** Write Comment Section Styles */
+/** ================================Write Comment Section Styles ================================*/
 
 .write-comment-title {
   font-size: 1.4rem;
@@ -232,9 +231,8 @@
   font-family: "inter-regular", Courier, monospace;
 }
 
-.write-comment-textarea::placeholder{
+.write-comment-textarea::placeholder {
   font-family: "inter-regular", Courier, monospace;
-
 }
 
 .write-comment-btn {

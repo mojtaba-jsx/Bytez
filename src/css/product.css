@@ -1,26 +1,26 @@
-/*! Css Imports */
+/*! ====================================Css Imports==================================== */
 @import "./reset.css";
 @import "./fonts.css";
 @import "./footer.css";
 
-/*! Css Variables */
+/*! ====================================Css Variables==================================== */
 :root {
   --white: #ffff;
   --black: black;
   --gray: #3f3f3f;
 }
 
-/*! Container Size */
+/*! ====================================Container Size ====================================*/
 .container {
   max-width: 1400px;
   margin: 0 auto;
 }
 
-/** Main Section Styles */
+/** ====================================Main Section Styles ====================================*/
 .main {
   background-color: #eff7fa;
 }
-/** Path Section Styles */
+/** ====================================Path Section Styles ====================================*/
 
 .path-text {
   font-size: 1.4rem;
@@ -29,7 +29,7 @@
   margin-top: 2rem;
 }
 
-/** Product Box Section Styles */
+/** ================================Product Box Section Styles ================================*/
 
 .product-box__wrapper {
   display: flex;
@@ -86,7 +86,6 @@
 .product-box__right-price-star {
   display: flex;
   align-items: center;
-  /* flex-direction: column; */
 }
 .product-box__right-price-star-icon svg {
   width: 4rem;
@@ -122,7 +121,6 @@
 
 .product-box__right-add-to-cart-counter {
   display: flex;
-  /* align-items: center; */
 }
 
 .product-box__right-add-to-cart-counter button:nth-child(1) {
@@ -158,7 +156,6 @@
   background-color: var(--white);
   border: none;
   outline: none;
-  /* height: 2rem; */
   font-size: 1.2rem;
 }
 
@@ -194,8 +191,9 @@ input::-webkit-inner-spin-button {
   cursor: pointer;
 }
 
-/** Tab Navigation Section Styles */
-.tab-navigation{
+/** ================================Tab Nvigator Section Styles ================================*/
+
+.tab-navigation {
   margin-top: 4rem;
 }
 .tab {
@@ -241,10 +239,10 @@ input::-webkit-inner-spin-button {
 }
 
 .tabcontent {
-  animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  animation: fadeEffect 1s; 
 }
 
-/* Go from zero to full opacity */
+
 @keyframes fadeEffect {
   from {
     opacity: 0;
@@ -269,14 +267,14 @@ input::-webkit-inner-spin-button {
   margin-right: 0.5rem;
 }
 
+/** ====================================Rating Section Styles ====================================*/
 
-/** Rating Section Styles */
-.rating{
+.rating {
   margin-bottom: 4rem;
   padding-bottom: 4rem;
   padding-top: 2rem;
 }
-.rating-title{
+.rating-title {
   background-color: var(--white);
   padding: 1rem 2.5rem;
   border-bottom: 4px solid black;
@@ -284,54 +282,50 @@ input::-webkit-inner-spin-button {
   font-size: 1.2rem;
 }
 
-.rating__wrapper{
+.rating__wrapper {
   display: flex;
   justify-content: space-around;
   border-top: 2px solid var(--gray);
   margin-top: 1.2rem;
 }
 
-
-.rating__left-rate{
+.rating__left-rate {
   display: flex;
   align-items: center;
   font-size: 4rem;
   font-family: "inter-bold", Courier, monospace;
-
 }
-.rating__left-rate svg{
+.rating__left-rate svg {
   width: 8rem;
   height: 8rem;
   color: gold;
   fill: gold;
-
 }
 
-.rating__left-rate-info{
-  font-size:1.4rem;
+.rating__left-rate-info {
+  font-size: 1.4rem;
   font-family: "inter-regular", Courier, monospace;
-
 }
 
-.rating__right{
+.rating__right {
   display: flex;
   flex-direction: column;
 }
 
-.rating__right-score{
+.rating__right-score {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.rating__right-score-star{
+.rating__right-score-star {
   display: flex;
   align-items: center;
   font-size: 1.4rem;
   font-family: "inter-bold", Courier, monospace;
 }
 
-.rating__right-score-star svg{
+.rating__right-score-star svg {
   width: 2.5rem;
   height: 2.5rem;
   margin-left: 1rem;
@@ -339,43 +333,53 @@ input::-webkit-inner-spin-button {
   fill: gold;
 }
 
-.rating__right-progress-bar{
+.rating__right-progress-bar {
   width: 16rem;
   height: 1rem;
   border-radius: 1rem;
   background-color: var(--white);
 }
 
-.rating__right-progress-bar-percent{
+.rating__right-progress-bar-percent {
   background-color: green;
   width: 5rem;
   height: 1rem;
   border-radius: 1rem;
 }
 
-.rating__right-score:nth-child(1) .rating__right-progress-bar .rating__right-progress-bar-percent{
+.rating__right-score:nth-child(1)
+  .rating__right-progress-bar
+  .rating__right-progress-bar-percent {
   width: 16rem;
 }
-.rating__right-score:nth-child(2) .rating__right-progress-bar .rating__right-progress-bar-percent{
+.rating__right-score:nth-child(2)
+  .rating__right-progress-bar
+  .rating__right-progress-bar-percent {
   width: 14rem;
 }
-.rating__right-score:nth-child(3) .rating__right-progress-bar .rating__right-progress-bar-percent{
+.rating__right-score:nth-child(3)
+  .rating__right-progress-bar
+  .rating__right-progress-bar-percent {
   width: 12rem;
 }
-.rating__right-score:nth-child(4) .rating__right-progress-bar .rating__right-progress-bar-percent{
+.rating__right-score:nth-child(4)
+  .rating__right-progress-bar
+  .rating__right-progress-bar-percent {
   width: 8rem;
 }
-.rating__right-score:nth-child(5) .rating__right-progress-bar .rating__right-progress-bar-percent{
+.rating__right-score:nth-child(5)
+  .rating__right-progress-bar
+  .rating__right-progress-bar-percent {
   width: 4rem;
 }
 
+/** ==================================FeedBack Section Styles ==================================*/
 
-/** Feedback Section Styles */
-.feedback{
+.feedback {
   margin-bottom: 4rem;
   padding-bottom: 4rem;
 }
-.feedback-title{
+.feedback-title {
   background-color: var(--white);
   padding: 1rem 2.5rem;
   border-bottom: 4px solid black;
@@ -383,11 +387,11 @@ input::-webkit-inner-spin-button {
   font-size: 1.2rem;
 }
 
-.feedback__wrapper{
+.feedback__wrapper {
   border-top: 2px solid var(--gray);
   margin-top: 1.2rem;
 }
-.feedback__box{
+.feedback__box {
   display: flex;
   flex-direction: column;
   margin-top: 2rem;
@@ -396,33 +400,31 @@ input::-webkit-inner-spin-button {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
   padding-bottom: 2rem;
 }
-.feedback__box-top{
+.feedback__box-top {
   display: flex;
   align-items: center;
 }
 
-.feedback__box-top-right{
+.feedback__box-top-right {
   margin-left: 1rem;
 }
-.feedback__box-top-right-top{
+.feedback__box-top-right-top {
   display: flex;
 }
 
-.feedback__box-top-right-top-name{
+.feedback__box-top-right-top-name {
   font-size: 1rem;
   font-family: "inter-bold", Courier, monospace;
-  
 }
 
-.feedback__box-top-right-top-time{
+.feedback__box-top-right-top-time {
   font-size: 1rem;
   font-family: "inter-regular", Courier, monospace;
   color: var(--gray);
   margin-left: 1rem;
-
 }
 
-.feedback__box-top-right-bottom{
+.feedback__box-top-right-bottom {
   margin-top: 0.5rem;
 }
 
@@ -433,11 +435,10 @@ input::-webkit-inner-spin-button {
   fill: gold;
 }
 
-.feedback__box-bottom{
+.feedback__box-bottom {
   margin-top: 1rem;
 }
 
-.feedback__box-bottom-text{
+.feedback__box-bottom-text {
   font-family: "inter-regular", Courier, monospace;
-
 }

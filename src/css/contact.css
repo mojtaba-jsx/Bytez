@@ -1,9 +1,9 @@
-/*! Css Imports */
+/*! ====================================Css Imports==================================== */
 @import "./reset.css";
 @import "./fonts.css";
-@import './footer.css';
+@import "./footer.css";
 
-/*! Css Variables */
+/*! ====================================Css Variables==================================== */
 :root {
   --white: #ffff;
   --black: black;
@@ -13,17 +13,19 @@ body {
   background-color: rgb(239, 247, 250);
 }
 
-/*! Container Size */
+/*! ====================================Container Size ====================================*/
 .container {
   max-width: 1400px;
   margin: 0 auto;
 }
 
-/* * Main Section Styles */
-.main{
-    margin-bottom: 16rem;
+/** ====================================Main Section Styles ====================================*/
+
+.main {
+  margin-bottom: 16rem;
 }
-/** Path Section Styles */
+/** ====================================Path Section Styles ====================================*/
+
 .path-text {
   font-size: 1.4rem;
   font-family: "inter-bold", Courier, monospace;
@@ -31,151 +33,148 @@ body {
   margin-top: 2rem;
 }
 
+/** ==============================Contact Section Section Styles ==============================*/
 
-/** Contact Section Styles */
-.contact{
-    margin-top: 1rem;
+.contact {
+  margin-top: 1rem;
 }
-.contact__wrapper{
-    display: flex;
-    justify-content: space-around;
-}
-
-.contact__left{
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    width: 25%;
-    background-color: var(--white);
-    padding-left: 1rem;
-    margin-right: 2rem;
-    height: 30rem;
+.contact__wrapper {
+  display: flex;
+  justify-content: space-around;
 }
 
-.contact__left__wrapper{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+.contact__left {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: var(--white);
+  padding-left: 1rem;
+  margin-right: 2rem;
+  height: 30rem;
 }
 
-.contact__left span{
-    
-}
-.contact__left-phone-title{
-    display: flex;
-    align-items: center;
-    margin-top: 2rem;
+.contact__left__wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.contact__left-phone-title-icon svg ,.contact__left-email-title-icon svg{
-    width: 2rem;
-    height: 2rem;
-    color: var(--white);
+.contact__left-phone-title {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
 }
 
-.contact__left-phone-title-icon{
-    background-color: var(--black);
-    padding: 0.5rem;
-    border-radius: 50%;
+.contact__left-phone-title-icon svg,
+.contact__left-email-title-icon svg {
+  width: 2rem;
+  height: 2rem;
+  color: var(--white);
 }
 
-.contact__left-phone-title-text{
-    font-size: 1.2rem;
-    font-family: 'inter-bold', Courier, monospace;
-    margin-left: 1rem;
+.contact__left-phone-title-icon {
+  background-color: var(--black);
+  padding: 0.5rem;
+  border-radius: 50%;
 }
 
-.contact__left-phone-info,.contact__left-phone{
-    font-size: 1rem;
-    font-family: 'inter-regular', Courier, monospace;
-    margin-top: 1rem;
-
+.contact__left-phone-title-text {
+  font-size: 1.2rem;
+  font-family: "inter-bold", Courier, monospace;
+  margin-left: 1rem;
 }
 
-.contact__left-line{
-    margin-top: 2rem;
+.contact__left-phone-info,
+.contact__left-phone {
+  font-size: 1rem;
+  font-family: "inter-regular", Courier, monospace;
+  margin-top: 1rem;
 }
 
-
-.contact__left-email-title{
-    display: flex;
-    align-items: center;
-    margin-top: 2rem;
+.contact__left-line {
+  margin-top: 2rem;
 }
 
-.contact__left-email-title-icon{
-    background-color: var(--black);
-    padding: 0.5rem;
-    border-radius: 50%;
+.contact__left-email-title {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
 }
 
-.contact__left-email-title-text{
-    font-size: 1.2rem;
-    font-family: 'inter-bold', Courier, monospace;
-    margin-left: 1rem;
-    display:inline-block;
+.contact__left-email-title-icon {
+  background-color: var(--black);
+  padding: 0.5rem;
+  border-radius: 50%;
 }
 
-.contact__left-email-text,.contact__left-email-address1,.contact__left-email-address2{
-    font-size: 1rem;
-    font-family: 'inter-regular', Courier, monospace;
-    margin-top: 1rem;
-    line-height: 1.4rem;
+.contact__left-email-title-text {
+  font-size: 1.2rem;
+  font-family: "inter-bold", Courier, monospace;
+  margin-left: 1rem;
+  display: inline-block;
 }
 
-.contact__right{
-    width: 75%;
-    background-color: var(--white);
-    padding: 2rem;
-    height: 26rem;
-
+.contact__left-email-text,
+.contact__left-email-address1,
+.contact__left-email-address2 {
+  font-size: 1rem;
+  font-family: "inter-regular", Courier, monospace;
+  margin-top: 1rem;
+  line-height: 1.4rem;
 }
 
-.contact__right-form-tag{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.contact__right {
+  width: 75%;
+  background-color: var(--white);
+  padding: 2rem;
+  height: 26rem;
 }
 
-.contact__right-form-tag input{
-    width: 17rem;
-    height: 2.8rem;
-    margin-bottom: 2rem;
-    text-align: center;
-    border: none;
-    outline: none;
-    font-family: 'inter-regular', Courier, monospace;
-    background-color: #F5F5F5;
-    font-size: 1.1rem;
-    border-radius: 0.5rem;
+.contact__right-form-tag {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.contact__right-form-tag input::placeholder,.contact__right-form-tag textarea::placeholder{
-    font-family: 'inter-regular', Courier, monospace;
+.contact__right-form-tag input {
+  width: 17rem;
+  height: 2.8rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  border: none;
+  outline: none;
+  font-family: "inter-regular", Courier, monospace;
+  background-color: #f5f5f5;
+  font-size: 1.1rem;
+  border-radius: 0.5rem;
 }
 
-.contact__right-form-tag textarea{
-    width: 100%;
-    height: 18rem;
-    background-color: #F5F5F5;
-    border: none;
-    outline: none;
-    resize: none;
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-    padding: 1rem;
+.contact__right-form-tag input::placeholder,
+.contact__right-form-tag textarea::placeholder {
+  font-family: "inter-regular", Courier, monospace;
 }
 
-.contact__right-btn{
-    width: 12rem;
-    height: 3.2rem;
-    display: block;
-    margin: 0 auto;
-    margin-right: 1rem;
-    background-color: var(--black);
-    color: var(--white);
-    font-family: 'inter-bold', Courier, monospace;
-    border-radius: 0.2rem;
-    cursor: pointer;
+.contact__right-form-tag textarea {
+  width: 100%;
+  height: 18rem;
+  background-color: #f5f5f5;
+  border: none;
+  outline: none;
+  resize: none;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  padding: 1rem;
 }
 
+.contact__right-btn {
+  width: 12rem;
+  height: 3.2rem;
+  display: block;
+  margin: 0 auto;
+  margin-right: 1rem;
+  background-color: var(--black);
+  color: var(--white);
+  font-family: "inter-bold", Courier, monospace;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}

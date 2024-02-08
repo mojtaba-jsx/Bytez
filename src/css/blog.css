@@ -1,33 +1,32 @@
-/*! Css Imports */
+/*! ====================================Css Imports==================================== */
+
 @import "./reset.css";
 @import "./fonts.css";
 @import "./footer.css";
 
-/*! Css Variables */
+/*! ====================================Css Variables==================================== */
 :root {
   --white: #ffff;
   --black: black;
   --gray: #3f3f3f;
 }
 
-/*! Container Size */
+/*! ====================================Container Size ====================================*/
 .container {
   max-width: 1400px;
   margin: 0 auto;
 }
 
-/** Main Section Styles */
+/** ====================================Main Section Styles ====================================*/
 .main {
   background-color: #eff7fa;
 }
 .content__wrapper {
   display: flex;
   flex-direction: row-reverse;
-  /* align-items: center; */
 }
 
-/** Path Section Styles */
-
+/** ====================================path Section Styles ====================================*/
 .path-text {
   font-size: 1.4rem;
   font-family: "inter-bold", Courier, monospace;
@@ -35,7 +34,8 @@
   margin-top: 2rem;
 }
 
-/** Main Content Section Styles */
+/** ================================Main Content Section Styles ===============================*/
+
 .main-content {
   width: 70%;
   margin-top: 1rem;
@@ -49,7 +49,6 @@
 }
 
 .main-content__box {
-  /* background-color: red; */
   width: 25rem;
 }
 
@@ -119,22 +118,16 @@
   padding: 1rem;
   font-size: 1.4rem;
   font-family: "inter-bold", Courier, monospace;
-  /* display: none; */
   transition: all 200ms ease-in;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
 
-/* .main-content__box:hover .main-content__box-link {
-  display: block;
-  transition: all 200ms ease-in;
-} */
-
 .main-content2 {
-  width:70%;
+  width: 70%;
 }
 
-.main-content__box2__wrapper{
+.main-content__box2__wrapper {
   display: flex;
   flex-direction: column;
   margin-top: 10rem;
@@ -194,12 +187,11 @@
   color: #9e9e9e;
 }
 
-/** Aside Content Section Styles */
+/** ================================Aside Content Section Styles ================================*/
 
 .aside-content__wrapper {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
 }
 
 .aside-content {
@@ -243,7 +235,6 @@
 }
 
 .aside-content__box-info {
-  /* background-color: red; */
   text-align: center;
 }
 

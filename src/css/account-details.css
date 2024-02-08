@@ -1,28 +1,27 @@
-/*! Css Imports */
+/*! ====================================Css Imports==================================== */
 @import "./reset.css";
 @import "./fonts.css";
 @import "./footer.css";
 
-/*! Css Variables */
+/*! ====================================Css Variables==================================== */
 :root {
   --white: #ffff;
   --black: black;
   --gray: #3f3f3f;
 }
 
-/*! Container Size */
+/*! ====================================Container Size ====================================*/
 .container {
   max-width: 1400px;
   margin: 0 auto;
 }
 
-/** Main Section Styles */
+/** ====================================Main Section Styles ====================================*/
 .main {
   background-color: #eff7fa;
 }
 
-/** Path Section Styles */
-
+/** ====================================Path Section Styles ====================================*/
 .path-text {
   font-size: 1.4rem;
   font-family: "inter-bold", Courier, monospace;
@@ -30,8 +29,7 @@
   margin-top: 2rem;
 }
 
-
-/* ! Aside Menu Section Styles */
+/** ==================================Aside Menu Section Styles ==================================*/
 .aside-menu__link svg {
   width: 2rem;
   height: 2rem;
@@ -80,16 +78,14 @@
   margin-left: 1rem;
 }
 
-
-/** Account Section Styles */
-.account{
+/** ==================================Account Section Styles ==================================*/
+.account {
   margin-top: 2rem;
 }
 
-.account__wrapper{
+.account__wrapper {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
   padding-bottom: 4rem;
 }
 
@@ -102,46 +98,45 @@
   margin-right: 2rem;
 }
 
-.account-details-title{
+.account-details-title {
   font-size: 1.2rem;
   font-family: "inter-bold", Courier, monospace;
   text-transform: uppercase;
-  border-bottom: 2px solid #E4E7E9;
+  border-bottom: 2px solid #e4e7e9;
   width: 100%;
   display: block;
   padding-bottom: 1rem;
 }
 
-.account-details-box{
+.account-details-box {
   display: flex;
-  /* align-items: center; */
 }
 
-
-.account-details-box-right__form{
+.account-details-box-right__form {
   display: flex;
   flex-direction: column;
 }
 
-.account-details-box-right__form-row1,.account-details-box-right__form-row2 ,.account-details-box-right__form-row3 ,.account-details-box-right__form-row4{
+.account-details-box-right__form-row1,
+.account-details-box-right__form-row2,
+.account-details-box-right__form-row3,
+.account-details-box-right__form-row4 {
   display: flex;
   justify-content: space-around;
   text-align: center;
 }
 
-
-
-.form-label{
+.form-label {
   font-size: 1.2rem;
   font-family: "inter-regular", Courier, monospace;
   display: block;
   margin-top: 1rem;
 }
 
-input{
+input {
   padding: 1rem 4rem;
   margin-right: 1.4rem;
-  border: 2px solid #E4E7E9;
+  border: 2px solid #e4e7e9;
   outline: none;
   text-align: center;
   font-size: 1rem;
@@ -150,20 +145,20 @@ input{
   transition: all 140ms ease-in;
 }
 
-input::placeholder{
+input::placeholder {
   font-family: "inter-regular", Courier, monospace;
 }
 
-input:focus{
+input:focus {
   border: 2px solid var(--black);
   transform: scale(1.1);
-
 }
 
-.account-details-box-right__form-country,.account-details-box-right__form-states{
+.account-details-box-right__form-country,
+.account-details-box-right__form-states {
   padding: 1rem 2rem;
   font-size: 1.1rem;
-  border: 2px solid #E4E7E9;
+  border: 2px solid #e4e7e9;
   outline: none;
   margin-right: 1rem;
   text-align: center;
@@ -171,10 +166,9 @@ input:focus{
 
 .account-details-box-right__form-row4__pin input {
   padding: 1rem 1rem;
-  
 }
 
-.account-details-box-right__form-btn{
+.account-details-box-right__form-btn {
   width: 12rem;
   height: 4rem;
   margin-top: 2rem;
@@ -183,5 +177,4 @@ input:focus{
   font-size: 1.2rem;
   background-color: var(--black);
   color: var(--white);
-
 }

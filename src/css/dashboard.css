@@ -1,27 +1,22 @@
-/*! Css Imports */
+/*! ====================================Css Imports==================================== */
 @import "./reset.css";
 @import "./fonts.css";
 @import "./footer.css";
 
-/*! Css Variables */
+/*! ====================================Css Variables==================================== */
 :root {
   --white: #ffff;
   --black: black;
   --gray: #3f3f3f;
 }
 
-/*! Container Size */
+/*! ====================================Container Size ====================================*/
 .container {
   max-width: 1400px;
   margin: 0 auto;
 }
 
-/** Main Section Styles */
-.main {
-  background-color: #eff7fa;
-}
-/** Path Section Styles */
-
+/** ====================================Path Section Styles ====================================*/
 .path-text {
   font-size: 1.4rem;
   font-family: "inter-bold", Courier, monospace;
@@ -29,10 +24,11 @@
   margin-top: 2rem;
 }
 
-/** Main Section Styles */
+/** ====================================Main Section Styles ====================================*/
+.main {
+  background-color: #eff7fa;
+}
 .dashboard {
-  /* display: flex;
-  justify-content: space-between; */
   margin-top: 2rem;
   padding-bottom: 10rem;
 }
@@ -42,7 +38,7 @@
   justify-content: space-between;
 }
 
-/* ! Aside Menu Section Styles */
+/** ================================Aside Menu Section Styles ================================*/
 .aside-menu__link svg {
   width: 2rem;
   height: 2rem;
@@ -95,9 +91,12 @@
   margin-left: 1rem;
 }
 
-/** Dashboard Info Section Styles */
-/*! Dashboard Info Orders  Styles */
+/** ==============================Dashboard Info Section Styles ==============================*/
+.main {
+  background-color: #eff7fa;
+}
 
+/*! Dashboard Info Orders  Styles */
 .dashboard-info__orders {
   display: flex;
   justify-content: space-around;
@@ -162,8 +161,7 @@
   margin-top: 1rem;
 }
 
-/*! Dashboard Info User Styles */
-
+/** ============================Dashboard Info user Section Styles ============================*/
 .dashboard-info__user {
   display: flex;
   flex-direction: column;
@@ -186,8 +184,7 @@
   color: #2da5f3;
 }
 
-
-/*! Dashboard Info Boxes  Styles */
+/** ============================Dashboard Info Boxes Section Styles ============================*/
 
 .dashboard-info-boxes {
   display: flex;
@@ -195,7 +192,7 @@
   margin-top: 2rem;
 }
 
-/*! Dashboard info box Account Styles */
+/** ========================Dashboard Info Box Account Section Styles ========================*/
 .dashboard-info-boxes__account {
   width: 40%;
   display: flex;
@@ -203,7 +200,6 @@
   background-color: var(--white);
   padding: 1rem;
   border-radius: 1rem;
-
 }
 
 .dashboard-info-boxes__account-title {
@@ -262,8 +258,7 @@
   color: var(--black);
 }
 
-/*! Dashboard info box Address Styles */
-
+/** ========================Dashboard Info Box Address Section Styles ========================*/
 .dashboard-info-boxes__address {
   width: 40%;
   display: flex;

@@ -1,28 +1,27 @@
-/*! Css Imports */
+/*! ====================================Css Imports==================================== */
 @import "./reset.css";
 @import "./fonts.css";
 @import "./footer.css";
 
-/*! Css Variables */
+/*! ====================================Css Variables==================================== */
 :root {
   --white: #ffff;
   --black: black;
   --gray: #3f3f3f;
 }
 
-/*! Container Size */
+/*! ====================================Container Size ====================================*/
 .container {
   max-width: 1400px;
   margin: 0 auto;
 }
 
-/** Main Section Styles */
+/** ====================================Main Section Styles ====================================*/
 .main {
   background-color: #eff7fa;
 }
 
-/** Path Section Styles */
-
+/** ==================================Path Section Styles ================================== */
 .path-text {
   font-size: 1.4rem;
   font-family: "inter-bold", Courier, monospace;
@@ -30,7 +29,8 @@
   margin-top: 2rem;
 }
 
-/* ! Aside Menu Section Styles */
+/** ================================Aside Menu Section Styles ================================ */
+
 .aside-menu__link svg {
   width: 2rem;
   height: 2rem;
@@ -46,7 +46,6 @@
   margin-left: 2rem;
   padding: 1rem;
   border-radius: 1rem;
-  
 }
 
 .aside-menu__list {
@@ -81,11 +80,12 @@
   margin-left: 1rem;
 }
 
-/** Wallet Section Styles */
-.wallet{
-    margin-top: 2rem;
+/** ================================Wallet Section Styles ================================ */
+
+.wallet {
+  margin-top: 2rem;
 }
- .wallet__wrapper {
+.wallet__wrapper {
   display: flex;
 }
 
@@ -163,7 +163,6 @@
 .table,
 td,
 th {
-  /* border: 1px solid black; */
   text-align: center;
   margin-top: 1rem;
 }
@@ -175,12 +174,12 @@ th {
   font-family: "inter-regular", Courier, monospace;
 }
 
-.table__wrapper::-webkit-scrollbar{
+.table__wrapper::-webkit-scrollbar {
   background-color: var(--black);
   border-radius: 1rem;
 }
 
-.table__wrapper::-webkit-scrollbar-thumb{
+.table__wrapper::-webkit-scrollbar-thumb {
   background-color: gray;
   border-radius: 1rem;
 }
