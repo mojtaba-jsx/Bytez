@@ -39,6 +39,14 @@
   width: 50%;
 }
 
+.product-box__left-image{
+  transition: all 140ms ease-in;
+}
+
+.product-box__left-image:hover{
+  transform: scale(1.1);
+}
+
 .product-box__left-images {
   display: flex;
   flex-direction: row;

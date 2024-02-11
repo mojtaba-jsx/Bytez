@@ -256,6 +256,12 @@
   border-radius: 1rem;
   font-family: "inter-bold", Courier, monospace;
   color: var(--black);
+  transition: all 140ms ease-in;
+}
+
+.dashboard-info-boxes__account-more-info-edit:hover{
+  background-color: var(--black);
+  color: var(--white);
 }
 
 /** ========================Dashboard Info Box Address Section Styles ========================*/
@@ -304,4 +310,9 @@
   border-radius: 1rem;
   font-family: "inter-bold", Courier, monospace;
   color: var(--black);
+}
+
+.dashboard-info-boxes__address-infos-change:hover{
+  background-color: var(--black);
+  color: var(--white);
 }

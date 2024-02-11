@@ -236,3 +236,7 @@
 .login__box-icon:nth-child(3):hover {
   background-color: #ffffff;
 }
+
+input::placeholder{
+  color: var(--white);
+}
